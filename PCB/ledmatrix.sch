@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:TS65-rescue
-LIBS:TS65
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:TS65-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED LED1:16
+L TS65-rescue:LED LED1:16
 U 1 1 55931F5E
 P 14450 1800
 F 0 "LED1:16" H 14450 1900 50  0000 C CNN
@@ -28,7 +27,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 14450 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:15
+L TS65-rescue:LED LED1:15
 U 1 1 55931FB3
 P 13800 1800
 F 0 "LED1:15" H 13800 1900 50  0000 C CNN
@@ -40,7 +39,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13400 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:14
+L TS65-rescue:LED LED1:14
 U 1 1 55931FD1
 P 13150 1800
 F 0 "LED1:14" H 13150 1900 50  0000 C CNN
@@ -52,7 +51,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 12550 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:13
+L TS65-rescue:LED LED1:13
 U 1 1 56DF492C
 P 12500 1800
 F 0 "LED1:13" H 12500 1900 50  0000 C CNN
@@ -64,7 +63,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11600 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:12
+L TS65-rescue:LED LED1:12
 U 1 1 55932019
 P 11750 1800
 F 0 "LED1:12" H 11750 1900 50  0000 C CNN
@@ -76,7 +75,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 10550 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:11
+L TS65-rescue:LED LED1:11
 U 1 1 55932041
 P 10900 1800
 F 0 "LED1:11" H 10900 1900 50  0000 C CNN
@@ -88,7 +87,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9400 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:10
+L TS65-rescue:LED LED1:10
 U 1 1 55932069
 P 10100 1800
 F 0 "LED1:10" H 10100 1900 50  0000 C CNN
@@ -100,7 +99,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8300 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:9
+L TS65-rescue:LED LED1:9
 U 1 1 55932098
 P 9450 1800
 F 0 "LED1:9" H 9450 1900 50  0000 C CNN
@@ -112,7 +111,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 7350 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:16
+L TS65-rescue:LED LED2:16
 U 1 1 5593211C
 P 14450 2400
 F 0 "LED2:16" H 14450 2500 50  0000 C CNN
@@ -124,7 +123,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 14450 1900 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:15
+L TS65-rescue:LED LED2:15
 U 1 1 55932150
 P 13800 2400
 F 0 "LED2:15" H 13800 2500 50  0000 C CNN
@@ -136,7 +135,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13450 1900 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:14
+L TS65-rescue:LED LED2:14
 U 1 1 55932182
 P 13150 2400
 F 0 "LED2:14" H 13150 2500 50  0000 C CNN
@@ -148,7 +147,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 12550 1900 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:13
+L TS65-rescue:LED LED2:13
 U 1 1 559321B0
 P 12500 2400
 F 0 "LED2:13" H 12500 2500 50  0000 C CNN
@@ -160,7 +159,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11600 1900 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:12
+L TS65-rescue:LED LED2:12
 U 1 1 559321E6
 P 11750 2400
 F 0 "LED2:12" H 11750 2500 50  0000 C CNN
@@ -172,7 +171,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 10550 1900 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:11
+L TS65-rescue:LED LED2:11
 U 1 1 55932216
 P 10900 2400
 F 0 "LED2:11" H 10900 2500 50  0000 C CNN
@@ -184,7 +183,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9400 1900 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:10
+L TS65-rescue:LED LED2:10
 U 1 1 5593224A
 P 10100 2400
 F 0 "LED2:10" H 10100 2500 50  0000 C CNN
@@ -196,7 +195,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8300 1900 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:9
+L TS65-rescue:LED LED2:9
 U 1 1 55932280
 P 9450 2400
 F 0 "LED2:9" H 9450 2500 50  0000 C CNN
@@ -208,7 +207,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 7350 1900 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:16
+L TS65-rescue:LED LED3:16
 U 1 1 56DF4935
 P 14450 3000
 F 0 "LED3:16" H 14450 3100 50  0000 C CNN
@@ -220,7 +219,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 14450 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:15
+L TS65-rescue:LED LED3:15
 U 1 1 559322F2
 P 13850 3000
 F 0 "LED3:15" H 13850 3100 50  0000 C CNN
@@ -232,7 +231,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13500 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:13
+L TS65-rescue:LED LED3:13
 U 1 1 56DF4936
 P 12500 3000
 F 0 "LED3:13" H 12500 3100 50  0000 C CNN
@@ -244,7 +243,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11900 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:12
+L TS65-rescue:LED LED3:12
 U 1 1 56DF4937
 P 11750 3000
 F 0 "LED3:12" H 11750 3100 50  0000 C CNN
@@ -256,7 +255,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 10850 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:11
+L TS65-rescue:LED LED3:11
 U 1 1 559323B2
 P 10900 3000
 F 0 "LED3:11" H 10900 3100 50  0000 C CNN
@@ -268,7 +267,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9700 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:9
+L TS65-rescue:LED LED3:9
 U 1 1 5593243A
 P 9450 3000
 F 0 "LED3:9" H 9450 3100 50  0000 C CNN
@@ -280,7 +279,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 7650 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:8
+L TS65-rescue:LED LED3:8
 U 1 1 5593247C
 P 8800 3000
 F 0 "LED3:8" H 8800 3100 50  0000 C CNN
@@ -292,7 +291,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 6700 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:16
+L TS65-rescue:LED LED4:16
 U 1 1 56DF493A
 P 14450 3600
 F 0 "LED4:16" H 14450 3700 50  0000 C CNN
@@ -304,7 +303,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 14450 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:15
+L TS65-rescue:LED LED4:15
 U 1 1 56DF493B
 P 13800 3600
 F 0 "LED4:15" H 13800 3700 50  0000 C CNN
@@ -316,7 +315,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13500 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:13
+L TS65-rescue:LED LED4:13
 U 1 1 56DF493C
 P 12500 3600
 F 0 "LED4:13" H 12500 3700 50  0000 C CNN
@@ -328,7 +327,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11950 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:12
+L TS65-rescue:LED LED4:12
 U 1 1 56DF493D
 P 11750 3600
 F 0 "LED4:12" H 11750 3700 50  0000 C CNN
@@ -340,7 +339,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 10850 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:11
+L TS65-rescue:LED LED4:11
 U 1 1 56DF493E
 P 10900 3600
 F 0 "LED4:11" H 10900 3700 50  0000 C CNN
@@ -352,7 +351,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9700 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:10
+L TS65-rescue:LED LED4:10
 U 1 1 56DF493F
 P 10100 3600
 F 0 "LED4:10" H 10100 3700 50  0000 C CNN
@@ -364,7 +363,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8600 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:9
+L TS65-rescue:LED LED4:9
 U 1 1 55932708
 P 9450 3600
 F 0 "LED4:9" H 9450 3700 50  0000 C CNN
@@ -376,7 +375,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 7650 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:8
+L TS65-rescue:LED LED4:8
 U 1 1 55932764
 P 8800 3600
 F 0 "LED4:8" H 8800 3700 50  0000 C CNN
@@ -388,7 +387,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 6700 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:16
+L TS65-rescue:LED LED5:16
 U 1 1 559327C4
 P 14450 4200
 F 0 "LED5:16" H 14450 4300 50  0000 C CNN
@@ -400,7 +399,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 14450 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:15
+L TS65-rescue:LED LED5:15
 U 1 1 5593283A
 P 13850 4200
 F 0 "LED5:15" H 13850 4300 50  0000 C CNN
@@ -412,7 +411,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13550 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:13
+L TS65-rescue:LED LED5:13
 U 1 1 55932898
 P 12500 4200
 F 0 "LED5:13" H 12500 4300 50  0000 C CNN
@@ -424,7 +423,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11900 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:12
+L TS65-rescue:LED LED5:12
 U 1 1 559328FC
 P 11850 4200
 F 0 "LED5:12" H 11850 4300 50  0000 C CNN
@@ -436,7 +435,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11000 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:11
+L TS65-rescue:LED LED5:11
 U 1 1 55932962
 P 11100 4200
 F 0 "LED5:11" H 11100 4300 50  0000 C CNN
@@ -448,7 +447,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9850 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:10
+L TS65-rescue:LED LED5:10
 U 1 1 559329C6
 P 10350 4200
 F 0 "LED5:10" H 10350 4300 50  0000 C CNN
@@ -460,7 +459,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8800 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:8
+L TS65-rescue:LED LED5:8
 U 1 1 56A1454B
 P 8900 4200
 F 0 "LED5:8" H 8900 4300 50  0000 C CNN
@@ -472,7 +471,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 7050 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED2:8
+L TS65-rescue:LED LED2:8
 U 1 1 56A145D1
 P 8750 2400
 F 0 "LED2:8" H 8750 2500 50  0000 C CNN
@@ -484,7 +483,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 6650 400 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:8
+L TS65-rescue:LED LED1:8
 U 1 1 56A14A1B
 P 8750 1800
 F 0 "LED1:8" H 8750 1900 50  0000 C CNN
@@ -496,7 +495,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8750 -1150 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED1:15_2
+L TS65-rescue:LED LED1:15_2
 U 1 1 56A1E7CE
 P 13750 1800
 F 0 "LED1:15_2" H 13750 1900 50  0000 C CNN
@@ -508,7 +507,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13500 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:15_3
+L TS65-rescue:LED LED3:15_3
 U 1 1 56A1F944
 P 13750 3000
 F 0 "LED3:15_3" H 13750 3100 50  0000 C CNN
@@ -520,7 +519,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13500 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:8_2
+L TS65-rescue:LED LED5:8_2
 U 1 1 56A20341
 P 8850 4200
 F 0 "LED5:8_2" H 8850 4300 50  0000 C CNN
@@ -532,7 +531,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 7050 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:10_6
+L TS65-rescue:LED LED5:10_6
 U 1 1 56A20FF4
 P 10100 4200
 F 0 "LED5:10_6" H 10100 4300 50  0000 C CNN
@@ -544,7 +543,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8700 1750 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:10_4
+L TS65-rescue:LED LED5:10_4
 U 1 1 56A21162
 P 10200 4200
 F 0 "LED5:10_4" H 10200 4300 50  0000 C CNN
@@ -556,7 +555,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8650 1750 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:11_2
+L TS65-rescue:LED LED5:11_2
 U 1 1 56A217D4
 P 11050 4200
 F 0 "LED5:11_2" H 11050 4300 50  0000 C CNN
@@ -568,7 +567,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9900 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:11_3
+L TS65-rescue:LED LED5:11_3
 U 1 1 56A2187A
 P 11000 4200
 F 0 "LED5:11_3" H 11000 4300 50  0000 C CNN
@@ -580,7 +579,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9800 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED4:13_2
+L TS65-rescue:LED LED4:13_2
 U 1 1 56A298F7
 P 12450 3600
 F 0 "LED4:13_2" H 12450 3700 50  0000 C CNN
@@ -592,7 +591,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11800 2100 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:15_2
+L TS65-rescue:LED LED3:15_2
 U 1 1 56ACCF55
 P 13800 3000
 F 0 "LED3:15_2" H 13800 3100 50  0000 C CNN
@@ -604,7 +603,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13500 2000 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED3:14
+L TS65-rescue:LED LED3:14
 U 1 1 56AD0595
 P 13150 3000
 F 0 "LED3:14" H 13150 3100 50  0000 C CNN
@@ -616,7 +615,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11050 50  60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:15_2
+L TS65-rescue:LED LED5:15_2
 U 1 1 56AEBD24
 P 13800 4200
 F 0 "LED5:15_2" H 13800 4300 50  0000 C CNN
@@ -628,7 +627,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 13450 1750 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:13_2
+L TS65-rescue:LED LED5:13_2
 U 1 1 56AEC0F0
 P 12450 4200
 F 0 "LED5:13_2" H 12450 4300 50  0000 C CNN
@@ -640,7 +639,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 11800 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:12_3
+L TS65-rescue:LED LED5:12_3
 U 1 1 56AEC50D
 P 11750 4200
 F 0 "LED5:12_3" H 11750 4300 50  0000 C CNN
@@ -652,7 +651,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 10800 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:12_2
+L TS65-rescue:LED LED5:12_2
 U 1 1 56AEC60D
 P 11800 4200
 F 0 "LED5:12_2" H 11800 4300 50  0000 C CNN
@@ -664,7 +663,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 10900 1800 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:11_4
+L TS65-rescue:LED LED5:11_4
 U 1 1 56AED717
 P 10950 4200
 F 0 "LED5:11_4" H 10950 4300 50  0000 C CNN
@@ -676,7 +675,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9850 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:8_3
+L TS65-rescue:LED LED5:8_3
 U 1 1 56AEDA39
 P 8800 4200
 F 0 "LED5:8_3" H 8800 4300 50  0000 C CNN
@@ -688,7 +687,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 7050 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:10_2
+L TS65-rescue:LED LED5:10_2
 U 1 1 56AEDF34
 P 10300 4200
 F 0 "LED5:10_2" H 10300 4300 50  0000 C CNN
@@ -700,7 +699,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8800 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:10_3
+L TS65-rescue:LED LED5:10_3
 U 1 1 56AEE026
 P 10250 4200
 F 0 "LED5:10_3" H 10250 4300 50  0000 C CNN
@@ -712,7 +711,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8800 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:10_5
+L TS65-rescue:LED LED5:10_5
 U 1 1 56AEE53A
 P 10150 4200
 F 0 "LED5:10_5" H 10150 4300 50  0000 C CNN
@@ -724,7 +723,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8650 1750 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:11_5
+L TS65-rescue:LED LED5:11_5
 U 1 1 56B2FE26
 P 10900 4200
 F 0 "LED5:11_5" H 10900 4300 50  0000 C CNN
@@ -736,7 +735,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 9800 2200 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LED5:10_7
+L TS65-rescue:LED LED5:10_7
 U 1 1 56B30527
 P 10050 4200
 F 0 "LED5:10_7" H 10050 4300 50  0000 C CNN
@@ -748,7 +747,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 8500 1750 60  0001 C CNN "Description"
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED LEDI1
+L TS65-rescue:LED LEDI1
 U 1 1 56DF4929
 P 4250 8800
 F 0 "LEDI1" H 4250 8900 50  0000 C CNN
@@ -760,7 +759,7 @@ F 4 "2x3x4mm LED" H 4250 8800 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED LED1:2
+L TS65-rescue:LED LED1:2
 U 1 1 56DF492A
 P 3000 1800
 F 0 "LED1:2" H 3000 1900 50  0000 C CNN
@@ -772,7 +771,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2700 1800 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED2:4
+L TS65-rescue:LED LED2:4
 U 1 1 56DF492B
 P 4350 2400
 F 0 "LED2:4" H 4350 2500 50  0000 C CNN
@@ -784,7 +783,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 3750 2400 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED3:5
+L TS65-rescue:LED LED3:5
 U 1 1 55931FF1
 P 5250 3000
 F 0 "LED3:5" H 5250 3100 50  0000 C CNN
@@ -796,7 +795,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 4350 3000 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED4:4
+L TS65-rescue:LED LED4:4
 U 1 1 56DF492D
 P 4350 3600
 F 0 "LED4:4" H 4350 3700 50  0000 C CNN
@@ -808,7 +807,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2850 3600 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:4
+L TS65-rescue:LED LED5:4
 U 1 1 56DF492E
 P 4350 4200
 F 0 "LED5:4" H 4350 4300 50  0000 C CNN
@@ -820,7 +819,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1650 4200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED1:6
+L TS65-rescue:LED LED1:6
 U 1 1 56DF492F
 P 5900 1800
 F 0 "LED1:6" H 5900 1900 50  0000 C CNN
@@ -832,7 +831,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 5900 1300 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED1:1
+L TS65-rescue:LED LED1:1
 U 1 1 56DF4930
 P 2300 1800
 F 0 "LED1:1" H 2300 1900 50  0000 C CNN
@@ -844,7 +843,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2000 1300 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED2:3
+L TS65-rescue:LED LED2:3
 U 1 1 56DF4931
 P 3650 2400
 F 0 "LED2:3" H 3650 2500 50  0000 C CNN
@@ -856,7 +855,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 3050 1900 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED3:4
+L TS65-rescue:LED LED3:4
 U 1 1 56DF4932
 P 4350 3000
 F 0 "LED3:4" H 4350 3100 50  0000 C CNN
@@ -868,7 +867,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 3450 2500 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED4:3
+L TS65-rescue:LED LED4:3
 U 1 1 56DF4933
 P 3650 3600
 F 0 "LED4:3" H 3650 3700 50  0000 C CNN
@@ -880,7 +879,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2150 3100 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:3
+L TS65-rescue:LED LED5:3
 U 1 1 56DF4934
 P 3600 4200
 F 0 "LED5:3" H 3600 4300 50  0000 C CNN
@@ -892,7 +891,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1200 3700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED1:5
+L TS65-rescue:LED LED1:5
 U 1 1 559322B6
 P 5250 1800
 F 0 "LED1:5" H 5250 1900 50  0000 C CNN
@@ -904,7 +903,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 5250 800 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED2:2
+L TS65-rescue:LED LED2:2
 U 1 1 55932330
 P 3000 2400
 F 0 "LED2:2" H 3000 2500 50  0000 C CNN
@@ -916,7 +915,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2400 1400 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED3:3
+L TS65-rescue:LED LED3:3
 U 1 1 55932370
 P 3650 3000
 F 0 "LED3:3" H 3650 3100 50  0000 C CNN
@@ -928,7 +927,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2750 2000 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED4:2
+L TS65-rescue:LED LED4:2
 U 1 1 56DF4938
 P 3000 3600
 F 0 "LED4:2" H 3000 3700 50  0000 C CNN
@@ -940,7 +939,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1500 2600 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:2_2
+L TS65-rescue:LED LED5:2_2
 U 1 1 56DF4939
 P 2950 4200
 F 0 "LED5:2_2" H 2950 4300 50  0000 C CNN
@@ -952,7 +951,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 550 3200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED1:4
+L TS65-rescue:LED LED1:4
 U 1 1 55932514
 P 4350 1800
 F 0 "LED1:4" H 4350 1900 50  0000 C CNN
@@ -964,7 +963,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 4350 300 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED2:6
+L TS65-rescue:LED LED2:6
 U 1 1 55932568
 P 5900 2400
 F 0 "LED2:6" H 5900 2500 50  0000 C CNN
@@ -976,7 +975,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 5600 900 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED2:1
+L TS65-rescue:LED LED2:1
 U 1 1 559325BC
 P 2300 2400
 F 0 "LED2:1" H 2300 2500 50  0000 C CNN
@@ -988,7 +987,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1700 900 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED3:2
+L TS65-rescue:LED LED3:2
 U 1 1 5593260C
 P 3000 3000
 F 0 "LED3:2" H 3000 3100 50  0000 C CNN
@@ -1000,7 +999,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2100 1500 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED4:6
+L TS65-rescue:LED LED4:6
 U 1 1 5593265E
 P 5900 3600
 F 0 "LED4:6" H 5900 3700 50  0000 C CNN
@@ -1012,7 +1011,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 4700 2100 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED4:1
+L TS65-rescue:LED LED4:1
 U 1 1 559326B2
 P 2250 3600
 F 0 "LED4:1" H 2250 3700 50  0000 C CNN
@@ -1024,7 +1023,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 750 2100 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:1
+L TS65-rescue:LED LED5:1
 U 1 1 56DF4941
 P 2250 4200
 F 0 "LED5:1" H 2250 4300 50  0000 C CNN
@@ -1036,7 +1035,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H -150 2700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED1:3
+L TS65-rescue:LED LED1:3
 U 1 1 56DF4942
 P 3650 1800
 F 0 "LED1:3" H 3650 1900 50  0000 C CNN
@@ -1048,7 +1047,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 3650 -200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED2:5
+L TS65-rescue:LED LED2:5
 U 1 1 56DF4943
 P 5250 2400
 F 0 "LED2:5" H 5250 2500 50  0000 C CNN
@@ -1060,7 +1059,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 4950 400 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED3:6
+L TS65-rescue:LED LED3:6
 U 1 1 56DF4944
 P 5900 3000
 F 0 "LED3:6" H 5900 3100 50  0000 C CNN
@@ -1072,7 +1071,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 5300 1000 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED4:5
+L TS65-rescue:LED LED4:5
 U 1 1 56DF4946
 P 5250 3600
 F 0 "LED4:5" H 5250 3700 50  0000 C CNN
@@ -1084,7 +1083,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 4050 1600 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:5
+L TS65-rescue:LED LED5:5
 U 1 1 56DF4940
 P 5250 4200
 F 0 "LED5:5" H 5250 4300 50  0000 C CNN
@@ -1096,7 +1095,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 3500 2700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED4:1_2
+L TS65-rescue:LED LED4:1_2
 U 1 1 569D1123
 P 2300 3600
 F 0 "LED4:1_2" H 2300 3700 50  0000 C CNN
@@ -1108,7 +1107,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 900 1950 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED4:7
+L TS65-rescue:LED LED4:7
 U 1 1 569D82C6
 P 6550 3600
 F 0 "LED4:7" H 6550 3700 50  0000 C CNN
@@ -1120,7 +1119,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 5350 2600 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:4_2
+L TS65-rescue:LED LED5:4_2
 U 1 1 569E7A02
 P 4400 4200
 F 0 "LED5:4_2" H 4400 4300 50  0000 C CNN
@@ -1132,7 +1131,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1800 4200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:2_3
+L TS65-rescue:LED LED5:2_3
 U 1 1 569E7AB4
 P 3000 4200
 F 0 "LED5:2_3" H 3000 4300 50  0000 C CNN
@@ -1144,7 +1143,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 250 3200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:3_2
+L TS65-rescue:LED LED5:3_2
 U 1 1 569E7B7B
 P 3650 4200
 F 0 "LED5:3_2" H 3650 4300 50  0000 C CNN
@@ -1156,7 +1155,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1350 3700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:3_4
+L TS65-rescue:LED LED5:3_4
 U 1 1 569E7C3D
 P 3750 4200
 F 0 "LED5:3_4" H 3750 4300 50  0000 C CNN
@@ -1168,7 +1167,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1650 3700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:1_2
+L TS65-rescue:LED LED5:1_2
 U 1 1 569E7D04
 P 2300 4200
 F 0 "LED5:1_2" H 2300 4300 50  0000 C CNN
@@ -1180,7 +1179,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H -450 2700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:5_2
+L TS65-rescue:LED LED5:5_2
 U 1 1 569E7DE2
 P 5300 4200
 F 0 "LED5:5_2" H 5300 4300 50  0000 C CNN
@@ -1192,7 +1191,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 3450 2700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:2
+L TS65-rescue:LED LED5:2
 U 1 1 569E7EB7
 P 2900 4200
 F 0 "LED5:2" H 2900 4300 50  0000 C CNN
@@ -1204,7 +1203,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 800 3200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:5_3
+L TS65-rescue:LED LED5:5_3
 U 1 1 569EB03F
 P 5350 4200
 F 0 "LED5:5_3" H 5350 4300 50  0000 C CNN
@@ -1216,7 +1215,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 3300 2700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:3_3
+L TS65-rescue:LED LED5:3_3
 U 1 1 56AF39EC
 P 3700 4200
 F 0 "LED5:3_3" H 3700 4300 50  0000 C CNN
@@ -1228,7 +1227,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1500 3700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:5_4
+L TS65-rescue:LED LED5:5_4
 U 1 1 56AF4FFE
 P 5400 4200
 F 0 "LED5:5_4" H 5400 4300 50  0000 C CNN
@@ -1240,7 +1239,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 3250 2700 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:4_3
+L TS65-rescue:LED LED5:4_3
 U 1 1 56AF6A51
 P 4450 4200
 F 0 "LED5:4_3" H 4450 4300 50  0000 C CNN
@@ -1252,7 +1251,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 1950 4200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:4_4
+L TS65-rescue:LED LED5:4_4
 U 1 1 56AF6B9B
 P 4500 4200
 F 0 "LED5:4_4" H 4500 4300 50  0000 C CNN
@@ -1264,7 +1263,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2100 4200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:4_5
+L TS65-rescue:LED LED5:4_5
 U 1 1 56AF6CEA
 P 4550 4200
 F 0 "LED5:4_5" H 4550 4300 50  0000 C CNN
@@ -1276,7 +1275,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2250 4200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:4_6
+L TS65-rescue:LED LED5:4_6
 U 1 1 56AF6EFE
 P 4600 4200
 F 0 "LED5:4_6" H 4600 4300 50  0000 C CNN
@@ -1288,7 +1287,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2400 4200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED5:4_7
+L TS65-rescue:LED LED5:4_7
 U 1 1 56AF7097
 P 4650 4200
 F 0 "LED5:4_7" H 4650 4300 50  0000 C CNN
@@ -1300,7 +1299,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 2550 4200 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L WS2812B LEDG20
+L TS65-rescue:WS2812B LEDG20
 U 1 1 56C55A08
 P 9950 6850
 F 0 "LEDG20" H 9800 7050 50  0000 L CNN
@@ -1315,7 +1314,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 9950 685
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG18
+L TS65-rescue:WS2812B LEDG18
 U 1 1 56C795F5
 P 11750 6850
 F 0 "LEDG18" H 11600 7050 50  0000 L CNN
@@ -1330,7 +1329,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 11750 68
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG19
+L TS65-rescue:WS2812B LEDG19
 U 1 1 56C79AA6
 P 10850 6850
 F 0 "LEDG19" H 10700 7050 50  0000 L CNN
@@ -1345,7 +1344,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 10850 68
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG17
+L TS65-rescue:WS2812B LEDG17
 U 1 1 56C7E044
 P 12650 6850
 F 0 "LEDG17" H 12500 7050 50  0000 L CNN
@@ -1360,7 +1359,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 12650 68
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG16
+L TS65-rescue:WS2812B LEDG16
 U 1 1 56C7E058
 P 13550 6850
 F 0 "LEDG16" H 13400 7050 50  0000 L CNN
@@ -1375,7 +1374,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 13550 68
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG11
+L TS65-rescue:WS2812B LEDG11
 U 1 1 56C8AB8E
 P 9950 6050
 F 0 "LEDG11" H 9800 6250 50  0000 L CNN
@@ -1390,7 +1389,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 9950 605
 	-1   0    0    1   
 $EndComp
 $Comp
-L WS2812B LEDG13
+L TS65-rescue:WS2812B LEDG13
 U 1 1 56C8AB98
 P 11750 6050
 F 0 "LEDG13" H 11600 6250 50  0000 L CNN
@@ -1405,7 +1404,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 11750 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L WS2812B LEDG12
+L TS65-rescue:WS2812B LEDG12
 U 1 1 56C8ABA2
 P 10850 6050
 F 0 "LEDG12" H 10700 6250 50  0000 L CNN
@@ -1420,7 +1419,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 10850 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L WS2812B LEDG14
+L TS65-rescue:WS2812B LEDG14
 U 1 1 56C8ABAC
 P 12650 6050
 F 0 "LEDG14" H 12500 6250 50  0000 L CNN
@@ -1435,7 +1434,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 12650 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L WS2812B LEDG15
+L TS65-rescue:WS2812B LEDG15
 U 1 1 56C8ABB6
 P 13550 6050
 F 0 "LEDG15" H 13400 6250 50  0000 L CNN
@@ -1450,7 +1449,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 13550 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L VSS #PWR01
+L TS65-rescue:VSS #PWR01
 U 1 1 56CBC40E
 P 9400 5750
 F 0 "#PWR01" H 9400 5750 30  0001 C CNN
@@ -1461,7 +1460,7 @@ F 3 "" H 9400 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED11
+L TS65-rescue:C CLED11
 U 1 1 56CDE29A
 P 10300 5850
 F 0 "CLED11" H 10300 5950 40  0000 L CNN
@@ -1476,7 +1475,7 @@ F 7 "Samsung" H 10300 5850 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED12
+L TS65-rescue:C CLED12
 U 1 1 56CE9401
 P 11150 5850
 F 0 "CLED12" H 11150 5950 40  0000 L CNN
@@ -1491,7 +1490,7 @@ F 7 "Samsung" H 11150 5850 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED13
+L TS65-rescue:C CLED13
 U 1 1 56CEA830
 P 12050 5850
 F 0 "CLED13" H 12050 5950 40  0000 L CNN
@@ -1506,7 +1505,7 @@ F 7 "Samsung" H 12050 5850 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED14
+L TS65-rescue:C CLED14
 U 1 1 56CEAD14
 P 12950 5850
 F 0 "CLED14" H 12950 5950 40  0000 L CNN
@@ -1521,7 +1520,7 @@ F 7 "Samsung" H 12950 5850 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED15
+L TS65-rescue:C CLED15
 U 1 1 56CEB6A2
 P 13900 5850
 F 0 "CLED15" H 13900 5950 40  0000 L CNN
@@ -1536,7 +1535,7 @@ F 7 "Samsung" H 13900 5850 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED16
+L TS65-rescue:C CLED16
 U 1 1 56CEBB7A
 P 13250 7050
 F 0 "CLED16" H 13250 7150 40  0000 R CNN
@@ -1551,7 +1550,7 @@ F 7 "Samsung" H 13250 7050 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED17
+L TS65-rescue:C CLED17
 U 1 1 56CEC079
 P 12350 7050
 F 0 "CLED17" H 12350 7150 40  0000 R CNN
@@ -1566,7 +1565,7 @@ F 7 "Samsung" H 12350 7050 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED18
+L TS65-rescue:C CLED18
 U 1 1 56CEC565
 P 11450 7050
 F 0 "CLED18" H 11450 7150 40  0000 R CNN
@@ -1581,7 +1580,7 @@ F 7 "Samsung" H 11450 7050 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED19
+L TS65-rescue:C CLED19
 U 1 1 56CECA4E
 P 10550 7050
 F 0 "CLED19" H 10550 7150 40  0000 R CNN
@@ -1596,7 +1595,7 @@ F 7 "Samsung" H 10550 7050 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L TS65-rescue:R R24
 U 1 1 56CFEE86
 P 2000 6200
 F 0 "R24" V 2080 6200 40  0000 C CNN
@@ -1611,7 +1610,7 @@ F 7 "Samsung" V 2000 6200 60  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L WS2812B LEDG8
+L TS65-rescue:WS2812B LEDG8
 U 1 1 56CFEE9A
 P 4450 6900
 F 0 "LEDG8" H 4300 7100 50  0000 L CNN
@@ -1626,7 +1625,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 4450 690
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG9
+L TS65-rescue:WS2812B LEDG9
 U 1 1 56CFEEA4
 P 3550 6900
 F 0 "LEDG9" H 3400 7100 50  0000 L CNN
@@ -1641,7 +1640,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 3550 690
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG7
+L TS65-rescue:WS2812B LEDG7
 U 1 1 56CFEEAE
 P 5350 6900
 F 0 "LEDG7" H 5200 7100 50  0000 L CNN
@@ -1656,7 +1655,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 5350 690
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG3
+L TS65-rescue:WS2812B LEDG3
 U 1 1 56CFEECC
 P 4450 6100
 F 0 "LEDG3" H 4300 6300 50  0000 L CNN
@@ -1671,7 +1670,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 4450 610
 	-1   0    0    1   
 $EndComp
 $Comp
-L WS2812B LEDG2
+L TS65-rescue:WS2812B LEDG2
 U 1 1 56CFEED6
 P 3550 6100
 F 0 "LEDG2" H 3400 6300 50  0000 L CNN
@@ -1686,7 +1685,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 3550 610
 	-1   0    0    1   
 $EndComp
 $Comp
-L WS2812B LEDG4
+L TS65-rescue:WS2812B LEDG4
 U 1 1 56CFEEE0
 P 5350 6100
 F 0 "LEDG4" H 5200 6300 50  0000 L CNN
@@ -1701,7 +1700,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 5350 610
 	-1   0    0    1   
 $EndComp
 $Comp
-L VSS #PWR02
+L TS65-rescue:VSS #PWR02
 U 1 1 56CFEEF7
 P 1500 6050
 F 0 "#PWR02" H 1500 6050 30  0001 C CNN
@@ -1712,7 +1711,7 @@ F 3 "" H 1500 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED2
+L TS65-rescue:C CLED2
 U 1 1 56CFEF79
 P 3850 5900
 F 0 "CLED2" H 3850 6000 40  0000 L CNN
@@ -1727,7 +1726,7 @@ F 7 "Samsung" H 3850 5900 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED3
+L TS65-rescue:C CLED3
 U 1 1 56CFEF83
 P 4750 5900
 F 0 "CLED3" H 4750 6000 40  0000 L CNN
@@ -1742,7 +1741,7 @@ F 7 "Samsung" H 4750 5900 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED4
+L TS65-rescue:C CLED4
 U 1 1 56CFEF8D
 P 5650 5900
 F 0 "CLED4" H 5650 6000 40  0000 L CNN
@@ -1757,7 +1756,7 @@ F 7 "Samsung" H 5650 5900 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED6
+L TS65-rescue:C CLED6
 U 1 1 56CFEFA1
 P 5950 7100
 F 0 "CLED6" H 5950 7200 40  0000 R CNN
@@ -1772,7 +1771,7 @@ F 7 "Samsung" H 5950 7100 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED7
+L TS65-rescue:C CLED7
 U 1 1 56CFEFAB
 P 5050 7100
 F 0 "CLED7" H 5050 7200 40  0000 R CNN
@@ -1787,7 +1786,7 @@ F 7 "Samsung" H 5050 7100 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED8
+L TS65-rescue:C CLED8
 U 1 1 56CFEFB5
 P 4150 7100
 F 0 "CLED8" H 4150 7200 40  0000 R CNN
@@ -1802,7 +1801,7 @@ F 7 "Samsung" H 4150 7100 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED9
+L TS65-rescue:C CLED9
 U 1 1 56CFEFBF
 P 3250 7100
 F 0 "CLED9" H 3250 7200 40  0000 R CNN
@@ -1817,7 +1816,7 @@ F 7 "Samsung" H 3250 7100 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED5
+L TS65-rescue:C CLED5
 U 1 1 56CFEF97
 P 6600 5900
 F 0 "CLED5" H 6600 6000 40  0000 L CNN
@@ -1832,7 +1831,7 @@ F 7 "Samsung" H 6600 5900 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WS2812B LEDG5
+L TS65-rescue:WS2812B LEDG5
 U 1 1 56CFEEEA
 P 6250 6100
 F 0 "LEDG5" H 6100 6300 50  0000 L CNN
@@ -1847,7 +1846,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 6250 610
 	-1   0    0    1   
 $EndComp
 $Comp
-L WS2812B LEDG6
+L TS65-rescue:WS2812B LEDG6
 U 1 1 56CFEEB8
 P 6250 6900
 F 0 "LEDG6" H 6100 7100 50  0000 L CNN
@@ -1862,7 +1861,7 @@ F 7 "http://www.digikey.com/product-search/en?mpart=1655&vendor=1528" H 6250 690
 	1    0    0    -1  
 $EndComp
 $Comp
-L C CLED20
+L TS65-rescue:C CLED20
 U 1 1 56CECF36
 P 9600 7050
 F 0 "CLED20" H 9600 7150 40  0000 R CNN
@@ -1883,7 +1882,7 @@ RGBRDIN
 Text HLabel 1500 6550 0    60   Input ~ 0
 RGBLDOUT
 $Comp
-L LED LED3:10
+L TS65-rescue:LED LED3:10
 U 1 1 559323F6
 P 10100 3000
 F 0 "LED3:10" H 10100 3100 50  0000 C CNN
@@ -1899,7 +1898,7 @@ LEDCATH_
 Text HLabel 1550 1600 0    60   Input ~ 0
 LEDCATH
 $Comp
-L LED LEDI2
+L TS65-rescue:LED LEDI2
 U 1 1 571354E7
 P 4250 9150
 F 0 "LEDI2" H 4250 9250 50  0000 C CNN
@@ -1911,7 +1910,7 @@ F 4 "2x3x4mm LED" H 4250 9150 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED LEDI3
+L TS65-rescue:LED LEDI3
 U 1 1 57135974
 P 4250 9500
 F 0 "LEDI3" H 4250 9600 50  0000 C CNN
@@ -1929,7 +1928,7 @@ LEDI2
 Text HLabel 4050 9500 0    60   Input ~ 0
 LEDI3
 $Comp
-L LED LED1:7
+L TS65-rescue:LED LED1:7
 U 1 1 571661C0
 P 6550 1800
 F 0 "LED1:7" H 6550 1900 50  0000 C CNN
@@ -1953,7 +1952,7 @@ Left side RGB LEDs
 Text Notes 3650 8150 0    118  ~ 24
 Indicator LEDs
 $Comp
-L LED LEDCL1
+L TS65-rescue:LED LEDCL1
 U 1 1 56DE6D40
 P 4250 8450
 F 0 "LEDCL1" H 4250 8550 50  0000 C CNN
@@ -1965,7 +1964,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 4250 8450 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R RCL1
+L TS65-rescue:R RCL1
 U 1 1 56DE6D47
 P 4700 8450
 F 0 "RCL1" V 4780 8450 40  0000 C CNN
@@ -1983,7 +1982,7 @@ LEDAN_
 Text HLabel 1550 1800 0    60   Input ~ 0
 LEDAN
 $Comp
-L R RI1
+L TS65-rescue:R RI1
 U 1 1 56EC29C2
 P 4700 8800
 F 0 "RI1" V 4780 8800 40  0000 C CNN
@@ -1995,7 +1994,7 @@ F 4 "0805 Resistor for LED" V 4700 8800 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R RI2
+L TS65-rescue:R RI2
 U 1 1 56EC2C84
 P 4700 9150
 F 0 "RI2" V 4780 9150 40  0000 C CNN
@@ -2007,7 +2006,7 @@ F 4 "0805 Resistor for LED" V 4700 9150 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R RI3
+L TS65-rescue:R RI3
 U 1 1 56EC2F49
 P 4700 9500
 F 0 "RI3" V 4780 9500 40  0000 C CNN
@@ -2019,7 +2018,7 @@ F 4 "0805 Resistor for LED" V 4700 9500 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R23
+L TS65-rescue:R R23
 U 1 1 56DF8849
 P 9150 6150
 F 0 "R23" V 9230 6150 40  0000 C CNN
@@ -2034,7 +2033,7 @@ F 7 "Samsung" V 9150 6150 60  0001 C CNN "Vendor"
 	0    1    1    0   
 $EndComp
 $Comp
-L LED LEDI4
+L TS65-rescue:LED LEDI4
 U 1 1 56E0C3D1
 P 4250 9850
 F 0 "LEDI4" H 4250 9950 50  0000 C CNN
@@ -2048,7 +2047,7 @@ $EndComp
 Text HLabel 4050 9850 0    60   Input ~ 0
 LEDI4
 $Comp
-L R RI4
+L TS65-rescue:R RI4
 U 1 1 56E0C3D9
 P 4700 9850
 F 0 "RI4" V 4780 9850 40  0000 C CNN
@@ -2060,7 +2059,7 @@ F 4 "0805 Resistor for LED" V 4700 9850 60  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LEDCL2
+L TS65-rescue:LED LEDCL2
 U 1 1 56E0F320
 P 4250 8350
 F 0 "LEDCL2" H 4250 8450 50  0000 C CNN
@@ -2072,7 +2071,7 @@ F 4 "2x3x4mm 1.8mm 3mm flangeless LED" H 4250 8350 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR03
+L TS65-rescue:+5V #PWR03
 U 1 1 571EE772
 P 9400 6350
 F 0 "#PWR03" H 9400 6440 20  0001 C CNN
@@ -2083,7 +2082,7 @@ F 3 "" H 9400 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR04
+L TS65-rescue:+5V #PWR04
 U 1 1 571EEA0B
 P 1500 6400
 F 0 "#PWR04" H 1500 6490 20  0001 C CNN
@@ -2094,7 +2093,7 @@ F 3 "" H 1500 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR05
+L TS65-rescue:+5V #PWR05
 U 1 1 571EECA4
 P 5050 9500
 F 0 "#PWR05" H 5050 9590 20  0001 C CNN
@@ -2105,9 +2104,9 @@ F 3 "" H 5050 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 6650 3200 6650
+	6800 6650 5950 6650
 Wire Wire Line
-	7100 7300 3250 7300
+	7100 7300 6600 7300
 Connection ~ 10300 4500
 Wire Wire Line
 	10300 4400 10300 4500
@@ -2237,25 +2236,25 @@ Connection ~ 11750 2800
 Connection ~ 10900 2800
 Connection ~ 10100 2800
 Wire Wire Line
-	8500 4500 14450 4500
+	8500 4500 8800 4500
 Wire Wire Line
-	8500 3900 14450 3900
+	8500 3900 8800 3900
 Wire Wire Line
-	14450 3300 8500 3300
+	14450 3300 13850 3300
 Wire Wire Line
-	8500 2700 14450 2700
+	8500 2700 8750 2700
 Wire Wire Line
-	14450 2100 8500 2100
+	14450 2100 13800 2100
 Wire Wire Line
-	1650 4500 5400 4500
+	1650 4500 2250 4500
 Wire Wire Line
-	6550 3900 1650 3900
+	6550 3900 5900 3900
 Wire Wire Line
-	5900 3300 1650 3300
+	5900 3300 5250 3300
 Wire Wire Line
-	1650 2700 5900 2700
+	1650 2700 2300 2700
 Wire Wire Line
-	6550 2100 1650 2100
+	6550 2100 5900 2100
 Wire Wire Line
 	2300 2100 2300 2000
 Connection ~ 2300 2100
@@ -2269,7 +2268,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 7000 1500 6550
 Wire Wire Line
-	6800 6200 6800 6650
+	6800 6200 6800 6400
 Wire Wire Line
 	6950 6800 6950 6000
 Wire Wire Line
@@ -2281,7 +2280,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 8350 4450 8450
 Wire Wire Line
-	3000 2800 6900 2800
+	3000 2800 3650 2800
 Wire Wire Line
 	8650 6150 8900 6150
 Wire Notes Line
@@ -2338,28 +2337,28 @@ Connection ~ 8800 3300
 Connection ~ 8800 3900
 Connection ~ 8750 2100
 Wire Wire Line
-	1500 5700 7100 5700
+	1500 5700 3250 5700
 Connection ~ 8500 3900
 Connection ~ 8500 3300
 Connection ~ 8500 2700
 Connection ~ 8500 2100
 Wire Wire Line
-	8500 1700 8500 4500
+	8500 1700 8500 2100
 Connection ~ 15200 3400
 Wire Wire Line
-	15200 4000 8800 4000
+	15200 4000 14450 4000
 Connection ~ 15200 2800
 Wire Wire Line
-	15200 3400 8800 3400
+	15200 3400 14450 3400
 Connection ~ 15200 2200
 Wire Wire Line
-	15200 2800 8800 2800
+	15200 2800 14450 2800
 Wire Wire Line
-	15200 1600 15200 4000
+	15200 1600 15200 2200
 Wire Wire Line
-	8750 2200 15200 2200
+	8750 2200 9450 2200
 Wire Wire Line
-	8400 1600 15200 1600
+	8400 1600 8750 1600
 Wire Wire Line
 	6550 2100 6550 2000
 Connection ~ 4950 9500
@@ -2367,7 +2366,7 @@ Connection ~ 4950 9150
 Wire Wire Line
 	4950 9500 5050 9500
 Wire Wire Line
-	4950 8450 4950 9850
+	4950 8450 4950 8800
 Connection ~ 2250 3900
 Connection ~ 1650 3900
 Connection ~ 1650 3300
@@ -2376,7 +2375,7 @@ Connection ~ 1650 2700
 Connection ~ 1650 2100
 Connection ~ 2250 4500
 Wire Wire Line
-	1650 4500 1650 1800
+	1650 4500 1650 3900
 Connection ~ 3000 1600
 Connection ~ 3650 1600
 Connection ~ 4350 1600
@@ -2402,13 +2401,13 @@ Connection ~ 6900 3400
 Connection ~ 6900 2800
 Connection ~ 6550 3400
 Wire Wire Line
-	6900 3400 2250 3400
+	6900 3400 6550 3400
 Connection ~ 6900 2200
 Connection ~ 5900 2800
 Connection ~ 5900 2200
 Connection ~ 6550 1600
 Wire Wire Line
-	6900 4000 6900 1600
+	6900 4000 6900 3400
 Connection ~ 2300 1600
 Connection ~ 3650 2100
 Wire Wire Line
@@ -2483,14 +2482,11 @@ Wire Wire Line
 Wire Wire Line
 	5250 4500 5250 4400
 Wire Wire Line
-	2250 4000 6900 4000
+	2250 4000 2300 4000
 Wire Wire Line
-	2300 2200 6900 2200
+	2300 2200 3000 2200
 Wire Wire Line
-	6900 1600 1550 1600
-Connection ~ 8750 2200
-Connection ~ 8800 2800
-Connection ~ 8800 3400
+	6900 1600 6550 1600
 Connection ~ 8750 1600
 Connection ~ 9450 1600
 Connection ~ 9450 2100
@@ -2607,18 +2603,14 @@ Wire Wire Line
 Wire Wire Line
 	9450 2100 9450 2000
 Wire Wire Line
-	9500 6600 14100 6600
+	9500 6600 9600 6600
 Wire Wire Line
 	9400 5650 9400 5750
 Wire Wire Line
-	9600 7250 14400 7250
+	9600 7250 10200 7250
 Connection ~ 10200 6350
 Wire Wire Line
-	14400 5650 9400 5650
-Connection ~ 9500 6600
-Wire Wire Line
 	9500 6750 9500 6600
-Connection ~ 14250 5650
 Wire Wire Line
 	14400 7250 14400 5650
 Connection ~ 13200 6600
@@ -2710,9 +2702,9 @@ Wire Wire Line
 Wire Wire Line
 	14100 6150 13800 6150
 Wire Wire Line
-	14100 6600 14100 6150
+	14100 6600 14100 6350
 Wire Wire Line
-	9400 6350 14100 6350
+	9400 6350 10200 6350
 Connection ~ 14100 6350
 Wire Wire Line
 	11100 6150 11200 6150
@@ -2801,12 +2793,10 @@ Connection ~ 11150 5650
 Connection ~ 12050 5650
 Connection ~ 12950 5650
 Connection ~ 13900 5650
-Connection ~ 9600 7250
 Connection ~ 10550 7250
 Connection ~ 11450 7250
 Connection ~ 12350 7250
 Connection ~ 13250 7250
-Connection ~ 6950 5700
 Connection ~ 5900 6650
 Wire Wire Line
 	5900 6800 5900 6650
@@ -2955,7 +2945,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 6000 6000 5700
 Wire Wire Line
-	1500 6400 6800 6400
+	1500 6400 3850 6400
 Connection ~ 9700 5650
 Connection ~ 3250 5700
 Connection ~ 4650 4000
@@ -2988,7 +2978,6 @@ Connection ~ 11000 4000
 Connection ~ 10900 4000
 Connection ~ 10350 4000
 Connection ~ 8900 4000
-Connection ~ 8800 4000
 Connection ~ 13800 2800
 Connection ~ 13800 2200
 Connection ~ 10250 4000
@@ -3016,7 +3005,7 @@ Connection ~ 14450 4000
 Connection ~ 14450 1600
 Connection ~ 11050 4000
 $Comp
-L LED LEDI1_2
+L TS65-rescue:LED LEDI1_2
 U 1 1 572342B3
 P 4250 8850
 F 0 "LEDI1_2" H 4250 8950 50  0000 C CNN
@@ -3028,7 +3017,7 @@ F 4 "2x3x4mm LED" H 4250 8850 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED LEDI2_2
+L TS65-rescue:LED LEDI2_2
 U 1 1 572344CB
 P 4250 9200
 F 0 "LEDI2_2" H 4250 9300 50  0000 C CNN
@@ -3040,7 +3029,7 @@ F 4 "2x3x4mm LED" H 4250 9200 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED LEDI3_2
+L TS65-rescue:LED LEDI3_2
 U 1 1 572346B8
 P 4250 9550
 F 0 "LEDI3_2" H 4250 9650 50  0000 C CNN
@@ -3063,4 +3052,572 @@ Wire Wire Line
 	4450 9550 4450 9500
 Wire Wire Line
 	4050 9550 4050 9500
+Wire Wire Line
+	10300 4500 10350 4500
+Wire Wire Line
+	10250 4500 10300 4500
+Wire Wire Line
+	10200 4500 10250 4500
+Wire Wire Line
+	10150 4500 10200 4500
+Wire Wire Line
+	10100 4500 10150 4500
+Wire Wire Line
+	10050 4500 10100 4500
+Wire Wire Line
+	8800 4500 8850 4500
+Wire Wire Line
+	8850 4500 8900 4500
+Wire Wire Line
+	12450 4500 12500 4500
+Wire Wire Line
+	13800 4500 13850 4500
+Wire Wire Line
+	11050 4500 11100 4500
+Wire Wire Line
+	11000 4500 11050 4500
+Wire Wire Line
+	10950 4500 11000 4500
+Wire Wire Line
+	10900 4500 10950 4500
+Wire Wire Line
+	11750 4500 11800 4500
+Wire Wire Line
+	11800 4500 11850 4500
+Wire Wire Line
+	12450 3900 12500 3900
+Wire Wire Line
+	13800 3300 13750 3300
+Wire Wire Line
+	13750 3300 13150 3300
+Wire Wire Line
+	13750 2100 13150 2100
+Wire Wire Line
+	5350 4500 5400 4500
+Wire Wire Line
+	5300 4500 5350 4500
+Wire Wire Line
+	5250 4500 5300 4500
+Wire Wire Line
+	4650 4500 5250 4500
+Wire Wire Line
+	4600 4500 4650 4500
+Wire Wire Line
+	4550 4500 4600 4500
+Wire Wire Line
+	4500 4500 4550 4500
+Wire Wire Line
+	4450 4500 4500 4500
+Wire Wire Line
+	4400 4500 4450 4500
+Wire Wire Line
+	3750 4500 4350 4500
+Wire Wire Line
+	3700 4500 3750 4500
+Wire Wire Line
+	3650 4500 3700 4500
+Wire Wire Line
+	3000 4500 3600 4500
+Wire Wire Line
+	2950 4500 3000 4500
+Wire Wire Line
+	2300 4500 2900 4500
+Wire Wire Line
+	2300 3900 2250 3900
+Wire Wire Line
+	10100 3900 10900 3900
+Wire Wire Line
+	10900 3900 11750 3900
+Wire Wire Line
+	11750 3900 12450 3900
+Wire Wire Line
+	11750 3300 10900 3300
+Wire Wire Line
+	10900 3300 10100 3300
+Wire Wire Line
+	10100 3300 9450 3300
+Wire Wire Line
+	10100 3400 9450 3400
+Wire Wire Line
+	10900 3400 10100 3400
+Wire Wire Line
+	11750 3400 10900 3400
+Wire Wire Line
+	11750 2800 10900 2800
+Wire Wire Line
+	10900 2800 10100 2800
+Wire Wire Line
+	10100 2800 9450 2800
+Wire Wire Line
+	2300 2100 1650 2100
+Wire Wire Line
+	3000 2100 2300 2100
+Wire Wire Line
+	4950 8800 4950 9150
+Wire Wire Line
+	13800 1600 14450 1600
+Wire Wire Line
+	13750 1600 13800 1600
+Wire Wire Line
+	8750 2700 9450 2700
+Wire Wire Line
+	8800 3300 8500 3300
+Wire Wire Line
+	8800 3900 9450 3900
+Wire Wire Line
+	8750 2100 8500 2100
+Wire Wire Line
+	8500 3900 8500 4500
+Wire Wire Line
+	8500 3300 8500 3900
+Wire Wire Line
+	8500 2700 8500 3300
+Wire Wire Line
+	8500 2100 8500 2700
+Wire Wire Line
+	15200 3400 15200 4000
+Wire Wire Line
+	15200 2800 15200 3400
+Wire Wire Line
+	15200 2200 15200 2800
+Wire Wire Line
+	4950 9500 4950 9850
+Wire Wire Line
+	4950 9150 4950 9500
+Wire Wire Line
+	2250 3900 1650 3900
+Wire Wire Line
+	1650 3900 1650 3300
+Wire Wire Line
+	1650 3300 1650 2700
+Wire Wire Line
+	2300 2700 3000 2700
+Wire Wire Line
+	1650 2700 1650 2100
+Wire Wire Line
+	1650 2100 1650 1800
+Wire Wire Line
+	2250 4500 2300 4500
+Wire Wire Line
+	3000 1600 2300 1600
+Wire Wire Line
+	3650 1600 3000 1600
+Wire Wire Line
+	4350 1600 3650 1600
+Wire Wire Line
+	5250 1600 4350 1600
+Wire Wire Line
+	5900 1600 5250 1600
+Wire Wire Line
+	5250 2200 5900 2200
+Wire Wire Line
+	4350 2200 5250 2200
+Wire Wire Line
+	3650 2200 4350 2200
+Wire Wire Line
+	3000 2200 3650 2200
+Wire Wire Line
+	5250 2800 5900 2800
+Wire Wire Line
+	5250 3400 4350 3400
+Wire Wire Line
+	3650 4000 3700 4000
+Wire Wire Line
+	3750 4000 4350 4000
+Wire Wire Line
+	3700 4000 3750 4000
+Wire Wire Line
+	3600 4000 3650 4000
+Wire Wire Line
+	3000 4000 3600 4000
+Wire Wire Line
+	2950 4000 3000 4000
+Wire Wire Line
+	2900 4000 2950 4000
+Wire Wire Line
+	2300 4000 2900 4000
+Wire Wire Line
+	3000 3400 2300 3400
+Wire Wire Line
+	2300 3400 2250 3400
+Wire Wire Line
+	6900 3400 6900 2800
+Wire Wire Line
+	6900 2800 6900 2200
+Wire Wire Line
+	6550 3400 5900 3400
+Wire Wire Line
+	6900 2200 6900 1600
+Wire Wire Line
+	5900 2800 6900 2800
+Wire Wire Line
+	5900 2200 6900 2200
+Wire Wire Line
+	6550 1600 5900 1600
+Wire Wire Line
+	2300 1600 1550 1600
+Wire Wire Line
+	3650 2100 3000 2100
+Wire Wire Line
+	4350 2100 3650 2100
+Wire Wire Line
+	5250 2100 4350 2100
+Wire Wire Line
+	5900 2100 5250 2100
+Wire Wire Line
+	5250 2700 5900 2700
+Wire Wire Line
+	4350 2700 5250 2700
+Wire Wire Line
+	3000 2700 3650 2700
+Wire Wire Line
+	3650 2700 4350 2700
+Wire Wire Line
+	3650 3300 3000 3300
+Wire Wire Line
+	4350 3300 3650 3300
+Wire Wire Line
+	5250 3300 4350 3300
+Wire Wire Line
+	3000 3300 1650 3300
+Wire Wire Line
+	3600 4500 3650 4500
+Wire Wire Line
+	4350 4500 4400 4500
+Wire Wire Line
+	5900 3900 5250 3900
+Wire Wire Line
+	5250 3900 4350 3900
+Wire Wire Line
+	4350 3900 3650 3900
+Wire Wire Line
+	3650 3900 3000 3900
+Wire Wire Line
+	3000 3900 2300 3900
+Wire Wire Line
+	2900 4500 2950 4500
+Wire Wire Line
+	8750 1600 9450 1600
+Wire Wire Line
+	9450 1600 10100 1600
+Wire Wire Line
+	9450 2100 8750 2100
+Wire Wire Line
+	9450 2700 10100 2700
+Wire Wire Line
+	13150 2800 12500 2800
+Wire Wire Line
+	13150 3300 12500 3300
+Wire Wire Line
+	12500 3300 11750 3300
+Wire Wire Line
+	8900 4500 10050 4500
+Wire Wire Line
+	10350 4500 10900 4500
+Wire Wire Line
+	11100 4500 11750 4500
+Wire Wire Line
+	11850 4500 12450 4500
+Wire Wire Line
+	12500 4500 13800 4500
+Wire Wire Line
+	13850 4500 14450 4500
+Wire Wire Line
+	9450 3900 10100 3900
+Wire Wire Line
+	12500 3900 13800 3900
+Wire Wire Line
+	13800 3900 14450 3900
+Wire Wire Line
+	9450 3300 8800 3300
+Wire Wire Line
+	13850 3300 13800 3300
+Wire Wire Line
+	10100 2700 10900 2700
+Wire Wire Line
+	10900 2700 11750 2700
+Wire Wire Line
+	11750 2700 12500 2700
+Wire Wire Line
+	12500 2700 13150 2700
+Wire Wire Line
+	13150 2700 13800 2700
+Wire Wire Line
+	13800 2700 14450 2700
+Wire Wire Line
+	12450 4000 11850 4000
+Wire Wire Line
+	13800 3400 12500 3400
+Wire Wire Line
+	13750 2800 13150 2800
+Wire Wire Line
+	10050 4000 8900 4000
+Wire Wire Line
+	10100 4000 10050 4000
+Wire Wire Line
+	10150 4000 10100 4000
+Wire Wire Line
+	9450 2200 10100 2200
+Wire Wire Line
+	10100 2100 9450 2100
+Wire Wire Line
+	10900 2100 10100 2100
+Wire Wire Line
+	11750 2100 10900 2100
+Wire Wire Line
+	12500 2100 11750 2100
+Wire Wire Line
+	13150 2100 12500 2100
+Wire Wire Line
+	13800 2100 13750 2100
+Wire Wire Line
+	10200 6350 10300 6350
+Wire Wire Line
+	13200 6600 13250 6600
+Wire Wire Line
+	12300 6600 12350 6600
+Wire Wire Line
+	11400 6600 11450 6600
+Wire Wire Line
+	10500 6600 10550 6600
+Wire Wire Line
+	10200 7250 10550 7250
+Wire Wire Line
+	13300 5650 12950 5650
+Wire Wire Line
+	14100 6350 14100 6150
+Wire Wire Line
+	11200 6350 12050 6350
+Wire Wire Line
+	12100 6350 12950 6350
+Wire Wire Line
+	13000 6350 13900 6350
+Wire Wire Line
+	12350 5650 12050 5650
+Wire Wire Line
+	11450 5650 11150 5650
+Wire Wire Line
+	10550 5650 10300 5650
+Wire Wire Line
+	11150 7250 11450 7250
+Wire Wire Line
+	12050 7250 12350 7250
+Wire Wire Line
+	12950 7250 13250 7250
+Wire Wire Line
+	13900 7250 14400 7250
+Wire Wire Line
+	9600 6600 10500 6600
+Wire Wire Line
+	10550 6600 11400 6600
+Wire Wire Line
+	11450 6600 12300 6600
+Wire Wire Line
+	12350 6600 13200 6600
+Wire Wire Line
+	13250 6600 14100 6600
+Wire Wire Line
+	10300 6350 11150 6350
+Wire Wire Line
+	11150 6350 11200 6350
+Wire Wire Line
+	12050 6350 12100 6350
+Wire Wire Line
+	12950 6350 13000 6350
+Wire Wire Line
+	13900 6350 14100 6350
+Wire Wire Line
+	10300 5650 9700 5650
+Wire Wire Line
+	11150 5650 10550 5650
+Wire Wire Line
+	12050 5650 11450 5650
+Wire Wire Line
+	12950 5650 12350 5650
+Wire Wire Line
+	13900 5650 13300 5650
+Wire Wire Line
+	10550 7250 11150 7250
+Wire Wire Line
+	11450 7250 12050 7250
+Wire Wire Line
+	12350 7250 12950 7250
+Wire Wire Line
+	13250 7250 13900 7250
+Wire Wire Line
+	5900 6650 5050 6650
+Wire Wire Line
+	5000 6650 4150 6650
+Wire Wire Line
+	4100 6650 3250 6650
+Wire Wire Line
+	6000 5700 6600 5700
+Wire Wire Line
+	6800 6400 6800 6650
+Wire Wire Line
+	3900 6400 4750 6400
+Wire Wire Line
+	4800 6400 5650 6400
+Wire Wire Line
+	5700 6400 6600 6400
+Wire Wire Line
+	5050 5700 5650 5700
+Wire Wire Line
+	4150 5700 4750 5700
+Wire Wire Line
+	3850 7300 3250 7300
+Wire Wire Line
+	4750 7300 4150 7300
+Wire Wire Line
+	5650 7300 5050 7300
+Wire Wire Line
+	6600 7300 5950 7300
+Wire Wire Line
+	3250 6650 3200 6650
+Wire Wire Line
+	4150 6650 4100 6650
+Wire Wire Line
+	5050 6650 5000 6650
+Wire Wire Line
+	5950 6650 5900 6650
+Wire Wire Line
+	3850 6400 3900 6400
+Wire Wire Line
+	4750 6400 4800 6400
+Wire Wire Line
+	5650 6400 5700 6400
+Wire Wire Line
+	6600 6400 6800 6400
+Wire Wire Line
+	3850 5700 4150 5700
+Wire Wire Line
+	4750 5700 5050 5700
+Wire Wire Line
+	5650 5700 6000 5700
+Wire Wire Line
+	4150 7300 3850 7300
+Wire Wire Line
+	5050 7300 4750 7300
+Wire Wire Line
+	5950 7300 5650 7300
+Wire Wire Line
+	9700 5650 9400 5650
+Wire Wire Line
+	3250 5700 3850 5700
+Wire Wire Line
+	4650 4000 5250 4000
+Wire Wire Line
+	4450 4000 4500 4000
+Wire Wire Line
+	4500 4000 4550 4000
+Wire Wire Line
+	4350 4000 4400 4000
+Wire Wire Line
+	4600 4000 4650 4000
+Wire Wire Line
+	5400 4000 6900 4000
+Wire Wire Line
+	5300 4000 5350 4000
+Wire Wire Line
+	5250 4000 5300 4000
+Wire Wire Line
+	4400 4000 4450 4000
+Wire Wire Line
+	4550 4000 4600 4000
+Wire Wire Line
+	3650 2800 4350 2800
+Wire Wire Line
+	3650 3400 3000 3400
+Wire Wire Line
+	4350 2800 5250 2800
+Wire Wire Line
+	4350 3400 3650 3400
+Wire Wire Line
+	5900 3400 5250 3400
+Wire Wire Line
+	5350 4000 5400 4000
+Wire Wire Line
+	10950 4000 10900 4000
+Wire Wire Line
+	10300 4000 10250 4000
+Wire Wire Line
+	10200 4000 10150 4000
+Wire Wire Line
+	8850 4000 8800 4000
+Wire Wire Line
+	11100 4000 11050 4000
+Wire Wire Line
+	11800 4000 11750 4000
+Wire Wire Line
+	11750 4000 11100 4000
+Wire Wire Line
+	13800 4000 12500 4000
+Wire Wire Line
+	13850 2800 13800 2800
+Wire Wire Line
+	12500 3400 12450 3400
+Wire Wire Line
+	11000 4000 10950 4000
+Wire Wire Line
+	10900 4000 10350 4000
+Wire Wire Line
+	10350 4000 10300 4000
+Wire Wire Line
+	8900 4000 8850 4000
+Wire Wire Line
+	13800 2800 13750 2800
+Wire Wire Line
+	13800 2200 14450 2200
+Wire Wire Line
+	10250 4000 10200 4000
+Wire Wire Line
+	9450 3400 8800 3400
+Wire Wire Line
+	9450 2800 8800 2800
+Wire Wire Line
+	10100 2200 10900 2200
+Wire Wire Line
+	10100 1600 10900 1600
+Wire Wire Line
+	10900 2200 11750 2200
+Wire Wire Line
+	10900 1600 11750 1600
+Wire Wire Line
+	11750 2200 12500 2200
+Wire Wire Line
+	11750 1600 12500 1600
+Wire Wire Line
+	11850 4000 11800 4000
+Wire Wire Line
+	12500 2200 13150 2200
+Wire Wire Line
+	12500 1600 13150 1600
+Wire Wire Line
+	12500 4000 12450 4000
+Wire Wire Line
+	12450 3400 11750 3400
+Wire Wire Line
+	12500 2800 11750 2800
+Wire Wire Line
+	13150 2200 13800 2200
+Wire Wire Line
+	13150 1600 13750 1600
+Wire Wire Line
+	13850 4000 13800 4000
+Wire Wire Line
+	14450 2200 15200 2200
+Wire Wire Line
+	14450 2800 13850 2800
+Wire Wire Line
+	14450 3400 13800 3400
+Wire Wire Line
+	14450 4000 13850 4000
+Wire Wire Line
+	14450 1600 15200 1600
+Wire Wire Line
+	11050 4000 11000 4000
+Wire Wire Line
+	13900 5650 14400 5650
+Wire Wire Line
+	6600 5700 7100 5700
 $EndSCHEMATC

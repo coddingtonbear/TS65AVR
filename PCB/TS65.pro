@@ -1,4 +1,4 @@
-update=Fri 19 May 2017 13:14:16 AEST
+update=Sun 12 Aug 2018 11:01:25 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,12 +23,6 @@ ModuleOutlineThickness=0.300000000000
 [cvpcb]
 version=1
 NetIExt=net
-[eeschema]
-version=1
-LibDir=lib
-[eeschema/libraries]
-LibName1=TS65-rescue
-LibName2=lib/TS65
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -41,3 +35,6 @@ SpiceUseNetNumbers=0
 LabSize=60
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=

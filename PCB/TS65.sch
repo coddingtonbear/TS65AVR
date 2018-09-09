@@ -1,7 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:TS65-rescue
-LIBS:TS65
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:TS65-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -16,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MISC BREAKHOLES2
+L TS65-rescue:MISC BREAKHOLES2
 U 1 1 56CA654B
 P 8500 7800
 F 0 "BREAKHOLES2" H 8500 7950 60  0000 C CNN
@@ -27,7 +26,7 @@ F 3 "" H 8500 7800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC BREAKHOLES1
+L TS65-rescue:MISC BREAKHOLES1
 U 1 1 56CA44F1
 P 8500 7350
 F 0 "BREAKHOLES1" H 8500 7500 60  0000 C CNN
@@ -38,7 +37,7 @@ F 3 "" H 8500 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC HOLE1
+L TS65-rescue:MISC HOLE1
 U 1 1 56C96738
 P 9050 8950
 F 0 "HOLE1" H 9050 9100 60  0000 C CNN
@@ -49,7 +48,7 @@ F 3 "" H 9050 8950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC HOLE2
+L TS65-rescue:MISC HOLE2
 U 1 1 56C8EC13
 P 9050 9350
 F 0 "HOLE2" H 9050 9500 60  0000 C CNN
@@ -60,7 +59,7 @@ F 3 "" H 9050 9350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB6
+L TS65-rescue:MISC STAB6
 U 1 1 56C7A6BF
 P 12750 7300
 F 0 "STAB6" H 12750 7450 60  0000 C CNN
@@ -71,7 +70,7 @@ F 3 "" H 12750 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB7
+L TS65-rescue:MISC STAB7
 U 1 1 56C7A6B9
 P 13100 7300
 F 0 "STAB7" H 13100 7450 60  0000 C CNN
@@ -82,7 +81,7 @@ F 3 "" H 13100 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB9
+L TS65-rescue:MISC STAB9
 U 1 1 56C7A6B3
 P 13800 7300
 F 0 "STAB9" H 13800 7450 60  0000 C CNN
@@ -93,7 +92,7 @@ F 3 "" H 13800 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB8
+L TS65-rescue:MISC STAB8
 U 1 1 56C7A6AD
 P 13450 7300
 F 0 "STAB8" H 13450 7450 60  0000 C CNN
@@ -104,7 +103,7 @@ F 3 "" H 13450 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB10
+L TS65-rescue:MISC STAB10
 U 1 1 56C7A6A7
 P 14150 7300
 F 0 "STAB10" H 14150 7450 60  0000 C CNN
@@ -115,7 +114,7 @@ F 3 "" H 14150 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB11
+L TS65-rescue:MISC STAB11
 U 1 1 56C7A6A1
 P 14500 7300
 F 0 "STAB11" H 14500 7450 60  0000 C CNN
@@ -126,7 +125,7 @@ F 3 "" H 14500 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB12
+L TS65-rescue:MISC STAB12
 U 1 1 56C7A69B
 P 14850 7300
 F 0 "STAB12" H 14850 7450 60  0000 C CNN
@@ -137,7 +136,7 @@ F 3 "" H 14850 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC FID5
+L TS65-rescue:MISC FID5
 U 1 1 56C7A695
 P 13600 8400
 F 0 "FID5" H 13600 8550 60  0000 C CNN
@@ -148,7 +147,7 @@ F 3 "" H 13600 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC FID6
+L TS65-rescue:MISC FID6
 U 1 1 56C7A68F
 P 13950 8400
 F 0 "FID6" H 13950 8550 60  0000 C CNN
@@ -159,7 +158,7 @@ F 3 "" H 13950 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC FID7
+L TS65-rescue:MISC FID7
 U 1 1 56C7A689
 P 14300 8400
 F 0 "FID7" H 14300 8550 60  0000 C CNN
@@ -170,7 +169,7 @@ F 3 "" H 14300 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC FID8
+L TS65-rescue:MISC FID8
 U 1 1 56C7A683
 P 14650 8400
 F 0 "FID8" H 14650 8550 60  0000 C CNN
@@ -181,7 +180,7 @@ F 3 "" H 14650 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC LOGO5
+L TS65-rescue:MISC LOGO5
 U 1 1 56C7A67D
 P 13550 9500
 F 0 "LOGO5" H 13550 9650 60  0000 C CNN
@@ -192,7 +191,7 @@ F 3 "" H 13550 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC LOGO6
+L TS65-rescue:MISC LOGO6
 U 1 1 56C7A677
 P 13900 9500
 F 0 "LOGO6" H 13900 9650 60  0000 C CNN
@@ -203,7 +202,7 @@ F 3 "" H 13900 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC LOGO7
+L TS65-rescue:MISC LOGO7
 U 1 1 56C7A671
 P 14250 9500
 F 0 "LOGO7" H 14250 9650 60  0000 C CNN
@@ -214,7 +213,7 @@ F 3 "" H 14250 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC LOGO8
+L TS65-rescue:MISC LOGO8
 U 1 1 56C7A66B
 P 14600 9500
 F 0 "LOGO8" H 14600 9650 60  0000 C CNN
@@ -225,7 +224,7 @@ F 3 "" H 14600 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB1
+L TS65-rescue:MISC STAB1
 U 1 1 56C7340C
 P 10750 7300
 F 0 "STAB1" H 10750 7450 60  0000 C CNN
@@ -236,7 +235,7 @@ F 3 "" H 10750 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB2
+L TS65-rescue:MISC STAB2
 U 1 1 56C72EB7
 P 11100 7300
 F 0 "STAB2" H 11100 7450 60  0000 C CNN
@@ -247,7 +246,7 @@ F 3 "" H 11100 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB4
+L TS65-rescue:MISC STAB4
 U 1 1 56C6F49D
 P 11800 7300
 F 0 "STAB4" H 11800 7450 60  0000 C CNN
@@ -258,7 +257,7 @@ F 3 "" H 11800 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB3
+L TS65-rescue:MISC STAB3
 U 1 1 56C6EF7A
 P 11450 7300
 F 0 "STAB3" H 11450 7450 60  0000 C CNN
@@ -269,7 +268,7 @@ F 3 "" H 11450 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC STAB5
+L TS65-rescue:MISC STAB5
 U 1 1 56C6EA58
 P 12150 7300
 F 0 "STAB5" H 12150 7450 60  0000 C CNN
@@ -280,7 +279,7 @@ F 3 "" H 12150 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC FID1
+L TS65-rescue:MISC FID1
 U 1 1 56C68D5E
 P 10900 8400
 F 0 "FID1" H 10900 8550 60  0000 C CNN
@@ -291,7 +290,7 @@ F 3 "" H 10900 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC FID2
+L TS65-rescue:MISC FID2
 U 1 1 56C68846
 P 11250 8400
 F 0 "FID2" H 11250 8550 60  0000 C CNN
@@ -302,7 +301,7 @@ F 3 "" H 11250 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC FID3
+L TS65-rescue:MISC FID3
 U 1 1 56C68333
 P 11600 8400
 F 0 "FID3" H 11600 8550 60  0000 C CNN
@@ -313,7 +312,7 @@ F 3 "" H 11600 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC FID4
+L TS65-rescue:MISC FID4
 U 1 1 56C672F7
 P 11950 8400
 F 0 "FID4" H 11950 8550 60  0000 C CNN
@@ -324,7 +323,7 @@ F 3 "" H 11950 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC LOGO1
+L TS65-rescue:MISC LOGO1
 U 1 1 56C63178
 P 10850 9500
 F 0 "LOGO1" H 10850 9650 60  0000 C CNN
@@ -335,7 +334,7 @@ F 3 "" H 10850 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC LOGO2
+L TS65-rescue:MISC LOGO2
 U 1 1 56C62C6E
 P 11200 9500
 F 0 "LOGO2" H 11200 9650 60  0000 C CNN
@@ -346,7 +345,7 @@ F 3 "" H 11200 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC LOGO3
+L TS65-rescue:MISC LOGO3
 U 1 1 56C6226C
 P 11550 9500
 F 0 "LOGO3" H 11550 9650 60  0000 C CNN
@@ -357,7 +356,7 @@ F 3 "" H 11550 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC LOGO4
+L TS65-rescue:MISC LOGO4
 U 1 1 56C5DCB5
 P 11900 9500
 F 0 "LOGO4" H 11900 9650 60  0000 C CNN
@@ -368,7 +367,7 @@ F 3 "" H 11900 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW S5:4_7
+L TS65-rescue:SW S5:4_7
 U 1 1 56AEF7EC
 P 4700 4650
 F 0 "S5:4_7" H 4700 4750 60  0000 C CNN
@@ -380,7 +379,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:4_6
+L TS65-rescue:SW S5:4_6
 U 1 1 56AEF491
 P 4700 4750
 F 0 "S5:4_6" H 4700 4850 60  0000 C CNN
@@ -392,7 +391,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:4_5
+L TS65-rescue:SW S5:4_5
 U 1 1 56AEE649
 P 4700 4850
 F 0 "S5:4_5" H 4700 4950 60  0000 C CNN
@@ -404,7 +403,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:4_4
+L TS65-rescue:SW S5:4_4
 U 1 1 56AEE42D
 P 4700 4950
 F 0 "S5:4_4" H 4700 5050 60  0000 C CNN
@@ -416,7 +415,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:4_3
+L TS65-rescue:SW S5:4_3
 U 1 1 56AED7AC
 P 4700 5050
 F 0 "S5:4_3" H 4700 5150 60  0000 C CNN
@@ -428,7 +427,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:5_4
+L TS65-rescue:SW S5:5_4
 U 1 1 56AEB535
 P 5400 4650
 F 0 "S5:5_4" H 5400 4750 60  0000 C CNN
@@ -440,7 +439,7 @@ F 4 "MX Alps or compatible switch" H 4000 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:3_4
+L TS65-rescue:SW S5:3_4
 U 1 1 56AE1C8B
 P 4000 4650
 F 0 "S5:3_4" H 4000 4750 60  0000 C CNN
@@ -452,7 +451,7 @@ F 4 "MX Alps or compatible switch" H 1200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:5_3
+L TS65-rescue:SW S5:5_3
 U 1 1 569DB34B
 P 5400 4850
 F 0 "S5:5_3" H 5400 4950 60  0000 C CNN
@@ -464,7 +463,7 @@ F 4 "MX Alps or compatible switch" H 4000 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:5_2
+L TS65-rescue:SW S5:5_2
 U 1 1 569DB137
 P 5400 5050
 F 0 "S5:5_2" H 5400 5150 60  0000 C CNN
@@ -476,7 +475,7 @@ F 4 "MX Alps or compatible switch" H 4000 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:4_2
+L TS65-rescue:SW S5:4_2
 U 1 1 569DAF24
 P 4700 5150
 F 0 "S5:4_2" H 4700 5250 60  0000 C CNN
@@ -488,7 +487,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:3_3
+L TS65-rescue:SW S5:3_3
 U 1 1 569DA2E8
 P 4000 4850
 F 0 "S5:3_3" H 4000 4950 60  0000 C CNN
@@ -500,7 +499,7 @@ F 4 "MX Alps or compatible switch" H 1200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:3_2
+L TS65-rescue:SW S5:3_2
 U 1 1 569DA0DF
 P 4000 5050
 F 0 "S5:3_2" H 4000 5150 60  0000 C CNN
@@ -512,7 +511,7 @@ F 4 "MX Alps or compatible switch" H 1200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:2_3
+L TS65-rescue:SW S5:2_3
 U 1 1 569D9ED9
 P 3300 4700
 F 0 "S5:2_3" H 3300 4800 60  0000 C CNN
@@ -524,7 +523,7 @@ F 4 "MX Alps or compatible switch" H -200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:2_2
+L TS65-rescue:SW S5:2_2
 U 1 1 569D9CD2
 P 3300 4950
 F 0 "S5:2_2" H 3300 5050 60  0000 C CNN
@@ -536,7 +535,7 @@ F 4 "MX Alps or compatible switch" H -200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:1_2
+L TS65-rescue:SW S5:1_2
 U 1 1 569CEE7C
 P 2600 4800
 F 0 "S5:1_2" H 2600 4900 60  0000 C CNN
@@ -548,7 +547,7 @@ F 4 "MX Alps or compatible switch" H -1600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:7
+L TS65-rescue:DIODE D4:7
 U 1 1 569D3FD3
 P 6600 4300
 F 0 "D4:7" H 6600 4400 40  0000 C CNN
@@ -562,7 +561,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:7
+L TS65-rescue:SW S4:7
 U 1 1 569D3FCD
 P 6800 4100
 F 0 "S4:7" H 6800 4200 60  0000 C CNN
@@ -574,7 +573,7 @@ F 4 "MX Alps or compatible switch" H 6800 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S4:1_2
+L TS65-rescue:SW S4:1_2
 U 1 1 569CC8BD
 P 2200 4000
 F 0 "S4:1_2" H 2200 4100 60  0000 C CNN
@@ -586,7 +585,7 @@ F 4 "MX Alps or compatible switch" H -2400 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S3:1_2
+L TS65-rescue:SW S3:1_2
 U 1 1 569BCE0E
 P 2200 3250
 F 0 "S3:1_2" H 2200 3350 60  0000 C CNN
@@ -622,7 +621,7 @@ RowL2
 Text Label 1750 2400 2    60   ~ 0
 RowL1
 $Comp
-L DIODE D5:1
+L TS65-rescue:DIODE D5:1
 U 1 1 549A1F2F
 P 2400 5450
 F 0 "D5:1" H 2400 5550 40  0000 C CNN
@@ -636,7 +635,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:1
+L TS65-rescue:SW S5:1
 U 1 1 549A1F29
 P 2600 5050
 F 0 "S5:1" H 2600 5150 60  0000 C CNN
@@ -648,7 +647,7 @@ F 4 "MX Alps or compatible switch" H -1600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:2
+L TS65-rescue:DIODE D5:2
 U 1 1 549A1F23
 P 3100 5450
 F 0 "D5:2" H 3100 5550 40  0000 C CNN
@@ -662,7 +661,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:2
+L TS65-rescue:SW S5:2
 U 1 1 549A1F1D
 P 3300 5250
 F 0 "S5:2" H 3300 5350 60  0000 C CNN
@@ -674,7 +673,7 @@ F 4 "MX Alps or compatible switch" H -200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:3
+L TS65-rescue:DIODE D5:3
 U 1 1 549A1F17
 P 3800 5450
 F 0 "D5:3" H 3800 5550 40  0000 C CNN
@@ -688,7 +687,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:3
+L TS65-rescue:SW S5:3
 U 1 1 549A1F11
 P 4000 5250
 F 0 "S5:3" H 4000 5350 60  0000 C CNN
@@ -700,7 +699,7 @@ F 4 "MX Alps or compatible switch" H 1200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:4
+L TS65-rescue:DIODE D5:4
 U 1 1 549A1F0B
 P 4500 5450
 F 0 "D5:4" H 4500 5550 40  0000 C CNN
@@ -714,7 +713,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:4
+L TS65-rescue:SW S5:4
 U 1 1 549A1F05
 P 4700 5250
 F 0 "S5:4" H 4700 5350 60  0000 C CNN
@@ -726,7 +725,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:5
+L TS65-rescue:DIODE D5:5
 U 1 1 549A1EFF
 P 5200 5450
 F 0 "D5:5" H 5200 5550 40  0000 C CNN
@@ -740,7 +739,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:5
+L TS65-rescue:SW S5:5
 U 1 1 549A1EF9
 P 5400 5250
 F 0 "S5:5" H 5400 5350 60  0000 C CNN
@@ -752,7 +751,7 @@ F 4 "MX Alps or compatible switch" H 4000 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:1
+L TS65-rescue:DIODE D4:1
 U 1 1 549A1EC3
 P 2400 4300
 F 0 "D4:1" H 2400 4400 40  0000 C CNN
@@ -766,7 +765,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:1
+L TS65-rescue:SW S4:1
 U 1 1 549A1EBD
 P 2600 4100
 F 0 "S4:1" H 2600 4200 60  0000 C CNN
@@ -778,7 +777,7 @@ F 4 "MX Alps or compatible switch" H -1600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:2
+L TS65-rescue:DIODE D4:2
 U 1 1 549A1EB7
 P 3100 4300
 F 0 "D4:2" H 3100 4400 40  0000 C CNN
@@ -792,7 +791,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:2
+L TS65-rescue:SW S4:2
 U 1 1 549A1EB1
 P 3300 4100
 F 0 "S4:2" H 3300 4200 60  0000 C CNN
@@ -804,7 +803,7 @@ F 4 "MX Alps or compatible switch" H -200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:3
+L TS65-rescue:DIODE D4:3
 U 1 1 549A1EAB
 P 3800 4300
 F 0 "D4:3" H 3800 4400 40  0000 C CNN
@@ -818,7 +817,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:3
+L TS65-rescue:SW S4:3
 U 1 1 549A1EA5
 P 4000 4100
 F 0 "S4:3" H 4000 4200 60  0000 C CNN
@@ -830,7 +829,7 @@ F 4 "MX Alps or compatible switch" H 1200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:4
+L TS65-rescue:DIODE D4:4
 U 1 1 549A1E9F
 P 4500 4300
 F 0 "D4:4" H 4500 4400 40  0000 C CNN
@@ -844,7 +843,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:4
+L TS65-rescue:SW S4:4
 U 1 1 549A1E99
 P 4700 4100
 F 0 "S4:4" H 4700 4200 60  0000 C CNN
@@ -856,7 +855,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:5
+L TS65-rescue:DIODE D4:5
 U 1 1 549A1E93
 P 5200 4300
 F 0 "D4:5" H 5200 4400 40  0000 C CNN
@@ -870,7 +869,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:5
+L TS65-rescue:SW S4:5
 U 1 1 549A1E8D
 P 5400 4100
 F 0 "S4:5" H 5400 4200 60  0000 C CNN
@@ -882,7 +881,7 @@ F 4 "MX Alps or compatible switch" H 4000 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:6
+L TS65-rescue:DIODE D4:6
 U 1 1 549A1E87
 P 5900 4300
 F 0 "D4:6" H 5900 4400 40  0000 C CNN
@@ -896,7 +895,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:6
+L TS65-rescue:SW S4:6
 U 1 1 549A1E81
 P 6100 4100
 F 0 "S4:6" H 6100 4200 60  0000 C CNN
@@ -908,7 +907,7 @@ F 4 "MX Alps or compatible switch" H 5400 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:1
+L TS65-rescue:DIODE D3:1
 U 1 1 549A1E57
 P 2400 3600
 F 0 "D3:1" H 2400 3700 40  0000 C CNN
@@ -922,7 +921,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:1
+L TS65-rescue:SW S3:1
 U 1 1 549A1E51
 P 2600 3400
 F 0 "S3:1" H 2600 3500 60  0000 C CNN
@@ -934,7 +933,7 @@ F 4 "MX Alps or compatible switch" H -1600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:2
+L TS65-rescue:DIODE D3:2
 U 1 1 549A1E4B
 P 3100 3600
 F 0 "D3:2" H 3100 3700 40  0000 C CNN
@@ -948,7 +947,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:2
+L TS65-rescue:SW S3:2
 U 1 1 549A1E45
 P 3300 3400
 F 0 "S3:2" H 3300 3500 60  0000 C CNN
@@ -960,7 +959,7 @@ F 4 "MX Alps or compatible switch" H -200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:3
+L TS65-rescue:DIODE D3:3
 U 1 1 549A1E3F
 P 3800 3600
 F 0 "D3:3" H 3800 3700 40  0000 C CNN
@@ -974,7 +973,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:3
+L TS65-rescue:SW S3:3
 U 1 1 549A1E39
 P 4000 3400
 F 0 "S3:3" H 4000 3500 60  0000 C CNN
@@ -986,7 +985,7 @@ F 4 "MX Alps or compatible switch" H 1200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:4
+L TS65-rescue:DIODE D3:4
 U 1 1 549A1E33
 P 4500 3600
 F 0 "D3:4" H 4500 3700 40  0000 C CNN
@@ -1000,7 +999,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:4
+L TS65-rescue:SW S3:4
 U 1 1 549A1E2D
 P 4700 3400
 F 0 "S3:4" H 4700 3500 60  0000 C CNN
@@ -1012,7 +1011,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:5
+L TS65-rescue:DIODE D3:5
 U 1 1 549A1E27
 P 5200 3600
 F 0 "D3:5" H 5200 3700 40  0000 C CNN
@@ -1026,7 +1025,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:5
+L TS65-rescue:SW S3:5
 U 1 1 549A1E21
 P 5400 3400
 F 0 "S3:5" H 5400 3500 60  0000 C CNN
@@ -1038,7 +1037,7 @@ F 4 "MX Alps or compatible switch" H 4000 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:6
+L TS65-rescue:DIODE D3:6
 U 1 1 549A1E1B
 P 5900 3600
 F 0 "D3:6" H 5900 3700 40  0000 C CNN
@@ -1052,7 +1051,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:6
+L TS65-rescue:SW S3:6
 U 1 1 549A1E15
 P 6100 3400
 F 0 "S3:6" H 6100 3500 60  0000 C CNN
@@ -1064,7 +1063,7 @@ F 4 "MX Alps or compatible switch" H 5400 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:1
+L TS65-rescue:DIODE D2:1
 U 1 1 549A1E0F
 P 2400 2900
 F 0 "D2:1" H 2400 3000 40  0000 C CNN
@@ -1078,7 +1077,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:1
+L TS65-rescue:SW S2:1
 U 1 1 549A1E09
 P 2600 2700
 F 0 "S2:1" H 2600 2800 60  0000 C CNN
@@ -1090,7 +1089,7 @@ F 4 "MX Alps or compatible switch" H -1600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:2
+L TS65-rescue:DIODE D2:2
 U 1 1 549A1E03
 P 3100 2900
 F 0 "D2:2" H 3100 3000 40  0000 C CNN
@@ -1104,7 +1103,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:2
+L TS65-rescue:SW S2:2
 U 1 1 549A1DFD
 P 3300 2700
 F 0 "S2:2" H 3300 2800 60  0000 C CNN
@@ -1116,7 +1115,7 @@ F 4 "MX Alps or compatible switch" H -200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:3
+L TS65-rescue:DIODE D2:3
 U 1 1 549A1DF7
 P 3800 2900
 F 0 "D2:3" H 3800 3000 40  0000 C CNN
@@ -1130,7 +1129,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:3
+L TS65-rescue:SW S2:3
 U 1 1 549A1DF1
 P 4000 2700
 F 0 "S2:3" H 4000 2800 60  0000 C CNN
@@ -1142,7 +1141,7 @@ F 4 "MX Alps or compatible switch" H 1200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:4
+L TS65-rescue:DIODE D2:4
 U 1 1 549A1DEB
 P 4500 2900
 F 0 "D2:4" H 4500 3000 40  0000 C CNN
@@ -1156,7 +1155,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:4
+L TS65-rescue:SW S2:4
 U 1 1 549A1DE5
 P 4700 2700
 F 0 "S2:4" H 4700 2800 60  0000 C CNN
@@ -1168,7 +1167,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:5
+L TS65-rescue:DIODE D2:5
 U 1 1 549A1DDF
 P 5200 2900
 F 0 "D2:5" H 5200 3000 40  0000 C CNN
@@ -1182,7 +1181,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:5
+L TS65-rescue:SW S2:5
 U 1 1 549A1DD9
 P 5400 2700
 F 0 "S2:5" H 5400 2800 60  0000 C CNN
@@ -1194,7 +1193,7 @@ F 4 "MX Alps or compatible switch" H 4000 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:6
+L TS65-rescue:DIODE D2:6
 U 1 1 549A1DD3
 P 5900 2900
 F 0 "D2:6" H 5900 3000 40  0000 C CNN
@@ -1208,7 +1207,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:6
+L TS65-rescue:SW S2:6
 U 1 1 549A1DCD
 P 6100 2700
 F 0 "S2:6" H 6100 2800 60  0000 C CNN
@@ -1220,7 +1219,7 @@ F 4 "MX Alps or compatible switch" H 5400 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:1
+L TS65-rescue:DIODE D1:1
 U 1 1 549A1DBB
 P 2400 2200
 F 0 "D1:1" H 2400 2300 40  0000 C CNN
@@ -1234,7 +1233,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:1
+L TS65-rescue:SW S1:1
 U 1 1 549A1DB5
 P 2600 2000
 F 0 "S1:1" H 2600 2100 60  0000 C CNN
@@ -1246,7 +1245,7 @@ F 4 "MX Alps or compatible switch" H -1600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:2
+L TS65-rescue:DIODE D1:2
 U 1 1 549A1DAF
 P 3100 2200
 F 0 "D1:2" H 3100 2300 40  0000 C CNN
@@ -1260,7 +1259,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:2
+L TS65-rescue:SW S1:2
 U 1 1 549A1DA9
 P 3300 2000
 F 0 "S1:2" H 3300 2100 60  0000 C CNN
@@ -1272,7 +1271,7 @@ F 4 "MX Alps or compatible switch" H -200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:3
+L TS65-rescue:DIODE D1:3
 U 1 1 549A1DA3
 P 3800 2200
 F 0 "D1:3" H 3800 2300 40  0000 C CNN
@@ -1286,7 +1285,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:3
+L TS65-rescue:SW S1:3
 U 1 1 549A1D9D
 P 4000 2000
 F 0 "S1:3" H 4000 2100 60  0000 C CNN
@@ -1298,7 +1297,7 @@ F 4 "MX Alps or compatible switch" H 1200 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:4
+L TS65-rescue:DIODE D1:4
 U 1 1 549A1D97
 P 4500 2200
 F 0 "D1:4" H 4500 2300 40  0000 C CNN
@@ -1312,7 +1311,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:4
+L TS65-rescue:SW S1:4
 U 1 1 549A1D91
 P 4700 2000
 F 0 "S1:4" H 4700 2100 60  0000 C CNN
@@ -1324,7 +1323,7 @@ F 4 "MX Alps or compatible switch" H 2600 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:5
+L TS65-rescue:DIODE D1:5
 U 1 1 549A1D8B
 P 5200 2200
 F 0 "D1:5" H 5200 2300 40  0000 C CNN
@@ -1338,7 +1337,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:5
+L TS65-rescue:SW S1:5
 U 1 1 549A1D85
 P 5400 2000
 F 0 "S1:5" H 5400 2100 60  0000 C CNN
@@ -1350,7 +1349,7 @@ F 4 "MX Alps or compatible switch" H 4000 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:6
+L TS65-rescue:DIODE D1:6
 U 1 1 549A1D7F
 P 5900 2200
 F 0 "D1:6" H 5900 2300 40  0000 C CNN
@@ -1364,7 +1363,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:6
+L TS65-rescue:SW S1:6
 U 1 1 549A1D79
 P 6100 2000
 F 0 "S1:6" H 6100 2100 60  0000 C CNN
@@ -1376,7 +1375,7 @@ F 4 "MX Alps or compatible switch" H 5400 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:7
+L TS65-rescue:DIODE D1:7
 U 1 1 549A1D6C
 P 6600 2200
 F 0 "D1:7" H 6600 2300 40  0000 C CNN
@@ -1390,7 +1389,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:7
+L TS65-rescue:SW S1:7
 U 1 1 549A1D53
 P 6800 2000
 F 0 "S1:7" H 6800 2100 60  0000 C CNN
@@ -1402,7 +1401,7 @@ F 4 "MX Alps or compatible switch" H 6800 2000 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:10_6
+L TS65-rescue:SW S5:10_6
 U 1 1 56B8CE76
 P 10500 5050
 F 0 "S5:10_6" H 10500 5150 60  0000 C CNN
@@ -1414,7 +1413,7 @@ F 4 "MX Alps or compatible switch" H 7300 2100 60  0001 C CNN "Description"
 	0    -1   1    0   
 $EndComp
 $Comp
-L SW S5:11_4
+L TS65-rescue:SW S5:11_4
 U 1 1 56B8CE75
 P 11250 4900
 F 0 "S5:11_4" H 11250 5000 60  0000 C CNN
@@ -1426,7 +1425,7 @@ F 4 "MX Alps or compatible switch" H 8800 2100 60  0001 C CNN "Description"
 	0    -1   1    0   
 $EndComp
 $Comp
-L SW S5:10_5
+L TS65-rescue:SW S5:10_5
 U 1 1 56B8CE74
 P 10600 5050
 F 0 "S5:10_5" H 10600 5150 60  0000 C CNN
@@ -1438,7 +1437,7 @@ F 4 "MX Alps or compatible switch" H 7500 2100 60  0001 C CNN "Description"
 	0    -1   1    0   
 $EndComp
 $Comp
-L SW S5:10_4
+L TS65-rescue:SW S5:10_4
 U 1 1 56B8CE73
 P 10900 5350
 F 0 "S5:10_4" H 10900 5450 60  0000 C CNN
@@ -1450,7 +1449,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:10_3
+L TS65-rescue:SW S5:10_3
 U 1 1 56B8CE72
 P 10900 5200
 F 0 "S5:10_3" H 10900 5300 60  0000 C CNN
@@ -1462,7 +1461,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:8_2
+L TS65-rescue:SW S5:8_2
 U 1 1 56B8CE71
 P 9500 5200
 F 0 "S5:8_2" H 9500 5300 60  0000 C CNN
@@ -1474,7 +1473,7 @@ F 4 "MX Alps or compatible switch" H 5300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:11_3
+L TS65-rescue:SW S5:11_3
 U 1 1 56B8CE70
 P 11600 5350
 F 0 "S5:11_3" H 11600 5450 60  0000 C CNN
@@ -1486,7 +1485,7 @@ F 4 "MX Alps or compatible switch" H 9500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:12_3
+L TS65-rescue:SW S5:12_3
 U 1 1 56B8CE6F
 P 12300 5000
 F 0 "S5:12_3" H 12300 5100 60  0000 C CNN
@@ -1498,7 +1497,7 @@ F 4 "MX Alps or compatible switch" H 10900 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:12_2
+L TS65-rescue:SW S5:12_2
 U 1 1 56B8CE6E
 P 12300 5250
 F 0 "S5:12_2" H 12300 5350 60  0000 C CNN
@@ -1510,7 +1509,7 @@ F 4 "MX Alps or compatible switch" H 10900 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:13_2
+L TS65-rescue:SW S5:13_2
 U 1 1 56B8CE6D
 P 13000 5100
 F 0 "S5:13_2" H 13000 5200 60  0000 C CNN
@@ -1522,7 +1521,7 @@ F 4 "MX Alps or compatible switch" H 12300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:15_2
+L TS65-rescue:SW S5:15_2
 U 1 1 56B8CE6C
 P 14400 5100
 F 0 "S5:15_2" H 14400 5200 60  0000 C CNN
@@ -1534,7 +1533,7 @@ F 4 "MX Alps or compatible switch" H 15100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S3:15_2
+L TS65-rescue:SW S3:15_2
 U 1 1 56B8CE6B
 P 14200 3350
 F 0 "S3:15_2" H 14200 3450 60  0000 C CNN
@@ -1546,7 +1545,7 @@ F 4 "MX Alps or compatible switch" H 14700 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:14
+L TS65-rescue:DIODE D3:14
 U 1 1 56B8CE6A
 P 13500 3700
 F 0 "D3:14" H 13500 3800 40  0000 C CNN
@@ -1560,7 +1559,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:14
+L TS65-rescue:SW S3:14
 U 1 1 56B8CE69
 P 13700 3500
 F 0 "S3:14" H 13700 3600 60  0000 C CNN
@@ -1572,7 +1571,7 @@ F 4 "MX Alps or compatible switch" H 13700 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S4:13_2
+L TS65-rescue:SW S4:13_2
 U 1 1 56B8CE68
 P 12850 4050
 F 0 "S4:13_2" H 12850 4150 60  0000 C CNN
@@ -1584,7 +1583,7 @@ F 4 "MX Alps or compatible switch" H 12000 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S3:15_3
+L TS65-rescue:SW S3:15_3
 U 1 1 56B8CE67
 P 14200 3400
 F 0 "S3:15_3" H 14200 3500 60  0000 C CNN
@@ -1596,7 +1595,7 @@ F 4 "MX Alps or compatible switch" H 14700 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S1:15_2
+L TS65-rescue:SW S1:15_2
 U 1 1 56B8CE66
 P 14400 1900
 F 0 "S1:15_2" H 14400 2000 60  0000 C CNN
@@ -1608,7 +1607,7 @@ F 4 "MX Alps or compatible switch" H 15100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:11_5
+L TS65-rescue:SW S5:11_5
 U 1 1 56B8CE65
 P 11600 4950
 F 0 "S5:11_5" H 11600 5050 60  0000 C CNN
@@ -1620,7 +1619,7 @@ F 4 "MX Alps or compatible switch" H 9500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:10_2
+L TS65-rescue:SW S5:10_2
 U 1 1 56B8CE64
 P 10900 5050
 F 0 "S5:10_2" H 10900 5150 60  0000 C CNN
@@ -1632,7 +1631,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:10_7
+L TS65-rescue:SW S5:10_7
 U 1 1 56B8CE63
 P 10900 4900
 F 0 "S5:10_7" H 10900 5000 60  0000 C CNN
@@ -1644,7 +1643,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:11_2
+L TS65-rescue:SW S5:11_2
 U 1 1 56B8CE62
 P 11600 5150
 F 0 "S5:11_2" H 11600 5250 60  0000 C CNN
@@ -1656,7 +1655,7 @@ F 4 "MX Alps or compatible switch" H 9500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:8_3
+L TS65-rescue:SW S5:8_3
 U 1 1 56B8CE61
 P 9500 4950
 F 0 "S5:8_3" H 9500 5050 60  0000 C CNN
@@ -1668,7 +1667,7 @@ F 4 "MX Alps or compatible switch" H 5300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:15
+L TS65-rescue:DIODE D5:15
 U 1 1 56B8CE60
 P 14200 5550
 F 0 "D5:15" H 14200 5650 40  0000 C CNN
@@ -1682,7 +1681,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DIODE D3:16
+L TS65-rescue:DIODE D3:16
 U 1 1 56B8CE5F
 P 14900 3700
 F 0 "D3:16" H 14900 3800 40  0000 C CNN
@@ -1696,7 +1695,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:16
+L TS65-rescue:SW S3:16
 U 1 1 56B8CE5E
 P 15100 3500
 F 0 "S3:16" H 15100 3600 60  0000 C CNN
@@ -1708,7 +1707,7 @@ F 4 "MX Alps or compatible switch" H 16500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:15
+L TS65-rescue:DIODE D3:15
 U 1 1 56B8CE5D
 P 14200 3700
 F 0 "D3:15" H 14200 3800 40  0000 C CNN
@@ -1722,7 +1721,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:15
+L TS65-rescue:SW S3:15
 U 1 1 56B8CE5C
 P 14400 3500
 F 0 "S3:15" H 14350 3400 60  0000 C CNN
@@ -1734,7 +1733,7 @@ F 4 "MX Alps or compatible switch" H 15100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:15
+L TS65-rescue:DIODE D2:15
 U 1 1 56B8CE5B
 P 14200 3000
 F 0 "D2:15" H 14200 3100 40  0000 C CNN
@@ -1748,7 +1747,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:15
+L TS65-rescue:SW S2:15
 U 1 1 56B8CE5A
 P 14400 2800
 F 0 "S2:15" H 14400 2900 60  0000 C CNN
@@ -1760,7 +1759,7 @@ F 4 "MX Alps or compatible switch" H 15100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:16
+L TS65-rescue:DIODE D2:16
 U 1 1 56B8CE59
 P 14900 3000
 F 0 "D2:16" H 14900 3100 40  0000 C CNN
@@ -1774,7 +1773,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:16
+L TS65-rescue:SW S2:16
 U 1 1 56B8CE58
 P 15100 2800
 F 0 "S2:16" H 15100 2900 60  0000 C CNN
@@ -1786,7 +1785,7 @@ F 4 "MX Alps or compatible switch" H 16500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:15
+L TS65-rescue:DIODE D1:15
 U 1 1 56B8CE57
 P 14200 2300
 F 0 "D1:15" H 14200 2400 40  0000 C CNN
@@ -1800,7 +1799,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:15
+L TS65-rescue:SW S1:15
 U 1 1 56B8CE56
 P 14400 2100
 F 0 "S1:15" H 14400 2200 60  0000 C CNN
@@ -1812,7 +1811,7 @@ F 4 "MX Alps or compatible switch" H 15100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:16
+L TS65-rescue:DIODE D1:16
 U 1 1 56B8CE55
 P 14900 2300
 F 0 "D1:16" H 14900 2400 40  0000 C CNN
@@ -1826,7 +1825,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:16
+L TS65-rescue:SW S1:16
 U 1 1 56B8CE54
 P 15100 2100
 F 0 "S1:16" H 15100 2200 60  0000 C CNN
@@ -1866,7 +1865,7 @@ RowR2
 Text Label 8850 2500 2    60   ~ 0
 RowR1
 $Comp
-L DIODE D5:8
+L TS65-rescue:DIODE D5:8
 U 1 1 56B8CE51
 P 9300 5550
 F 0 "D5:8" H 9300 5650 40  0000 C CNN
@@ -1880,7 +1879,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:8
+L TS65-rescue:SW S5:8
 U 1 1 56B8CE50
 P 9500 4750
 F 0 "S5:8" H 9500 4850 60  0000 C CNN
@@ -1892,7 +1891,7 @@ F 4 "MX Alps or compatible switch" H 5300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:10
+L TS65-rescue:DIODE D5:10
 U 1 1 56B8CE4F
 P 10700 5550
 F 0 "D5:10" H 10700 5650 40  0000 C CNN
@@ -1906,7 +1905,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:10
+L TS65-rescue:SW S5:10
 U 1 1 56B8CE4E
 P 10900 4750
 F 0 "S5:10" H 10900 4850 60  0000 C CNN
@@ -1918,7 +1917,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:12
+L TS65-rescue:DIODE D5:12
 U 1 1 56B8CE4D
 P 12100 5550
 F 0 "D5:12" H 12100 5650 40  0000 C CNN
@@ -1932,7 +1931,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:12
+L TS65-rescue:SW S5:12
 U 1 1 56B8CE4C
 P 12300 4750
 F 0 "S5:12" H 12300 4850 60  0000 C CNN
@@ -1944,7 +1943,7 @@ F 4 "MX Alps or compatible switch" H 10900 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:11
+L TS65-rescue:DIODE D5:11
 U 1 1 56B8CE4B
 P 11400 5550
 F 0 "D5:11" H 11400 5650 40  0000 C CNN
@@ -1958,7 +1957,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:11
+L TS65-rescue:SW S5:11
 U 1 1 56B8CE4A
 P 11600 4750
 F 0 "S5:11" H 11600 4850 60  0000 C CNN
@@ -1970,7 +1969,7 @@ F 4 "MX Alps or compatible switch" H 9500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:13
+L TS65-rescue:DIODE D5:13
 U 1 1 56B8CE49
 P 12800 5550
 F 0 "D5:13" H 12800 5650 40  0000 C CNN
@@ -1984,7 +1983,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:13
+L TS65-rescue:SW S5:13
 U 1 1 56B8CE48
 P 13000 4850
 F 0 "S5:13" H 13000 4950 60  0000 C CNN
@@ -1996,7 +1995,7 @@ F 4 "MX Alps or compatible switch" H 12300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW S5:15
+L TS65-rescue:SW S5:15
 U 1 1 56B8CE47
 P 14400 4850
 F 0 "S5:15" H 14400 4950 60  0000 C CNN
@@ -2008,7 +2007,7 @@ F 4 "MX Alps or compatible switch" H 15100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D5:16
+L TS65-rescue:DIODE D5:16
 U 1 1 56B8CE46
 P 14900 5350
 F 0 "D5:16" H 14900 5450 40  0000 C CNN
@@ -2022,7 +2021,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S5:16
+L TS65-rescue:SW S5:16
 U 1 1 56B8CE45
 P 15100 4900
 F 0 "S5:16" H 15100 5000 60  0000 C CNN
@@ -2034,7 +2033,7 @@ F 4 "MX Alps or compatible switch" H 16500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:8
+L TS65-rescue:DIODE D4:8
 U 1 1 56B8CE44
 P 9300 4400
 F 0 "D4:8" H 9300 4500 40  0000 C CNN
@@ -2048,7 +2047,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:8
+L TS65-rescue:SW S4:8
 U 1 1 56B8CE43
 P 9500 4200
 F 0 "S4:8" H 9500 4300 60  0000 C CNN
@@ -2060,7 +2059,7 @@ F 4 "MX Alps or compatible switch" H 5300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:9
+L TS65-rescue:DIODE D4:9
 U 1 1 56B8CE42
 P 10000 4400
 F 0 "D4:9" H 10000 4500 40  0000 C CNN
@@ -2074,7 +2073,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:9
+L TS65-rescue:SW S4:9
 U 1 1 56B8CE41
 P 10200 4200
 F 0 "S4:9" H 10200 4300 60  0000 C CNN
@@ -2086,7 +2085,7 @@ F 4 "MX Alps or compatible switch" H 6700 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:10
+L TS65-rescue:DIODE D4:10
 U 1 1 56B8CE40
 P 10700 4400
 F 0 "D4:10" H 10700 4500 40  0000 C CNN
@@ -2100,7 +2099,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:10
+L TS65-rescue:SW S4:10
 U 1 1 56B8CE3F
 P 10900 4200
 F 0 "S4:10" H 10900 4300 60  0000 C CNN
@@ -2112,7 +2111,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:11
+L TS65-rescue:DIODE D4:11
 U 1 1 56B8CE3E
 P 11400 4400
 F 0 "D4:11" H 11400 4500 40  0000 C CNN
@@ -2126,7 +2125,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:11
+L TS65-rescue:SW S4:11
 U 1 1 56B8CE3D
 P 11600 4200
 F 0 "S4:11" H 11600 4300 60  0000 C CNN
@@ -2138,7 +2137,7 @@ F 4 "MX Alps or compatible switch" H 9500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:12
+L TS65-rescue:DIODE D4:12
 U 1 1 56B8CE3C
 P 12100 4400
 F 0 "D4:12" H 12100 4500 40  0000 C CNN
@@ -2152,7 +2151,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:12
+L TS65-rescue:SW S4:12
 U 1 1 56B8CE3B
 P 12300 4200
 F 0 "S4:12" H 12300 4300 60  0000 C CNN
@@ -2164,7 +2163,7 @@ F 4 "MX Alps or compatible switch" H 10900 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:13
+L TS65-rescue:DIODE D4:13
 U 1 1 56B8CE3A
 P 12800 4400
 F 0 "D4:13" H 12800 4500 40  0000 C CNN
@@ -2178,7 +2177,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:13
+L TS65-rescue:SW S4:13
 U 1 1 56B8CE39
 P 13000 4200
 F 0 "S4:13" H 13000 4300 60  0000 C CNN
@@ -2190,7 +2189,7 @@ F 4 "MX Alps or compatible switch" H 12300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:15
+L TS65-rescue:DIODE D4:15
 U 1 1 56B8CE38
 P 14200 4400
 F 0 "D4:15" H 14200 4500 40  0000 C CNN
@@ -2204,7 +2203,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:15
+L TS65-rescue:SW S4:15
 U 1 1 56B8CE37
 P 14400 4200
 F 0 "S4:15" H 14400 4300 60  0000 C CNN
@@ -2216,7 +2215,7 @@ F 4 "MX Alps or compatible switch" H 15100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D4:16
+L TS65-rescue:DIODE D4:16
 U 1 1 56B8CE36
 P 14900 4400
 F 0 "D4:16" H 14900 4500 40  0000 C CNN
@@ -2230,7 +2229,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S4:16
+L TS65-rescue:SW S4:16
 U 1 1 56B8CE35
 P 15100 4200
 F 0 "S4:16" H 15100 4300 60  0000 C CNN
@@ -2242,7 +2241,7 @@ F 4 "MX Alps or compatible switch" H 16500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:8
+L TS65-rescue:DIODE D3:8
 U 1 1 56B8CE34
 P 9300 3700
 F 0 "D3:8" H 9300 3800 40  0000 C CNN
@@ -2256,7 +2255,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:8
+L TS65-rescue:SW S3:8
 U 1 1 56B8CE33
 P 9500 3500
 F 0 "S3:8" H 9500 3600 60  0000 C CNN
@@ -2268,7 +2267,7 @@ F 4 "MX Alps or compatible switch" H 5300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:9
+L TS65-rescue:DIODE D3:9
 U 1 1 56B8CE32
 P 10000 3700
 F 0 "D3:9" H 10000 3800 40  0000 C CNN
@@ -2282,7 +2281,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:9
+L TS65-rescue:SW S3:9
 U 1 1 56B8CE31
 P 10200 3500
 F 0 "S3:9" H 10200 3600 60  0000 C CNN
@@ -2294,7 +2293,7 @@ F 4 "MX Alps or compatible switch" H 6700 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:10
+L TS65-rescue:DIODE D3:10
 U 1 1 56B8CE30
 P 10700 3700
 F 0 "D3:10" H 10700 3800 40  0000 C CNN
@@ -2308,7 +2307,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:10
+L TS65-rescue:SW S3:10
 U 1 1 56B8CE2F
 P 10900 3500
 F 0 "S3:10" H 10900 3600 60  0000 C CNN
@@ -2320,7 +2319,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:11
+L TS65-rescue:DIODE D3:11
 U 1 1 56B8CE2E
 P 11400 3700
 F 0 "D3:11" H 11400 3800 40  0000 C CNN
@@ -2334,7 +2333,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:11
+L TS65-rescue:SW S3:11
 U 1 1 56B8CE2D
 P 11600 3500
 F 0 "S3:11" H 11600 3600 60  0000 C CNN
@@ -2346,7 +2345,7 @@ F 4 "MX Alps or compatible switch" H 9500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:12
+L TS65-rescue:DIODE D3:12
 U 1 1 56B8CE2C
 P 12100 3700
 F 0 "D3:12" H 12100 3800 40  0000 C CNN
@@ -2360,7 +2359,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:12
+L TS65-rescue:SW S3:12
 U 1 1 56B8CE2B
 P 12300 3500
 F 0 "S3:12" H 12300 3600 60  0000 C CNN
@@ -2372,7 +2371,7 @@ F 4 "MX Alps or compatible switch" H 10900 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D3:13
+L TS65-rescue:DIODE D3:13
 U 1 1 56B8CE2A
 P 12800 3700
 F 0 "D3:13" H 12800 3800 40  0000 C CNN
@@ -2386,7 +2385,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S3:13
+L TS65-rescue:SW S3:13
 U 1 1 56B8CE29
 P 13000 3500
 F 0 "S3:13" H 13000 3600 60  0000 C CNN
@@ -2398,7 +2397,7 @@ F 4 "MX Alps or compatible switch" H 12300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:8
+L TS65-rescue:DIODE D2:8
 U 1 1 56B8CE28
 P 9300 3000
 F 0 "D2:8" H 9300 3100 40  0000 C CNN
@@ -2412,7 +2411,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:8
+L TS65-rescue:SW S2:8
 U 1 1 56B8CE27
 P 9500 2800
 F 0 "S2:8" H 9500 2900 60  0000 C CNN
@@ -2424,7 +2423,7 @@ F 4 "MX Alps or compatible switch" H 5300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:9
+L TS65-rescue:DIODE D2:9
 U 1 1 56B8CE26
 P 10000 3000
 F 0 "D2:9" H 10000 3100 40  0000 C CNN
@@ -2438,7 +2437,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:9
+L TS65-rescue:SW S2:9
 U 1 1 56B8CE25
 P 10200 2800
 F 0 "S2:9" H 10200 2900 60  0000 C CNN
@@ -2450,7 +2449,7 @@ F 4 "MX Alps or compatible switch" H 6700 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:10
+L TS65-rescue:DIODE D2:10
 U 1 1 56B8CE24
 P 10700 3000
 F 0 "D2:10" H 10700 3100 40  0000 C CNN
@@ -2464,7 +2463,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:10
+L TS65-rescue:SW S2:10
 U 1 1 56B8CE23
 P 10900 2800
 F 0 "S2:10" H 10900 2900 60  0000 C CNN
@@ -2476,7 +2475,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:11
+L TS65-rescue:DIODE D2:11
 U 1 1 56B8CE22
 P 11400 3000
 F 0 "D2:11" H 11400 3100 40  0000 C CNN
@@ -2490,7 +2489,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:11
+L TS65-rescue:SW S2:11
 U 1 1 56B8CE21
 P 11600 2800
 F 0 "S2:11" H 11600 2900 60  0000 C CNN
@@ -2502,7 +2501,7 @@ F 4 "MX Alps or compatible switch" H 9500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:12
+L TS65-rescue:DIODE D2:12
 U 1 1 56B8CE20
 P 12100 3000
 F 0 "D2:12" H 12100 3100 40  0000 C CNN
@@ -2516,7 +2515,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:12
+L TS65-rescue:SW S2:12
 U 1 1 56B8CE1F
 P 12300 2800
 F 0 "S2:12" H 12300 2900 60  0000 C CNN
@@ -2528,7 +2527,7 @@ F 4 "MX Alps or compatible switch" H 10900 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:13
+L TS65-rescue:DIODE D2:13
 U 1 1 56B8CE1E
 P 12800 3000
 F 0 "D2:13" H 12800 3100 40  0000 C CNN
@@ -2542,7 +2541,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:13
+L TS65-rescue:SW S2:13
 U 1 1 56B8CE1D
 P 13000 2800
 F 0 "S2:13" H 13000 2900 60  0000 C CNN
@@ -2554,7 +2553,7 @@ F 4 "MX Alps or compatible switch" H 12300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D2:14
+L TS65-rescue:DIODE D2:14
 U 1 1 56B8CE1C
 P 13500 3000
 F 0 "D2:14" H 13500 3100 40  0000 C CNN
@@ -2568,7 +2567,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S2:14
+L TS65-rescue:SW S2:14
 U 1 1 56B8CE1B
 P 13700 2800
 F 0 "S2:14" H 13700 2900 60  0000 C CNN
@@ -2580,7 +2579,7 @@ F 4 "MX Alps or compatible switch" H 13700 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:8
+L TS65-rescue:DIODE D1:8
 U 1 1 56B8CE1A
 P 9300 2300
 F 0 "D1:8" H 9300 2400 40  0000 C CNN
@@ -2594,7 +2593,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:8
+L TS65-rescue:SW S1:8
 U 1 1 56B8CE19
 P 9500 2100
 F 0 "S1:8" H 9500 2200 60  0000 C CNN
@@ -2606,7 +2605,7 @@ F 4 "MX Alps or compatible switch" H 5300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:9
+L TS65-rescue:DIODE D1:9
 U 1 1 56B8CE18
 P 10000 2300
 F 0 "D1:9" H 10000 2400 40  0000 C CNN
@@ -2620,7 +2619,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:9
+L TS65-rescue:SW S1:9
 U 1 1 56B8CE17
 P 10200 2100
 F 0 "S1:9" H 10200 2200 60  0000 C CNN
@@ -2632,7 +2631,7 @@ F 4 "MX Alps or compatible switch" H 6700 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:10
+L TS65-rescue:DIODE D1:10
 U 1 1 56B8CE16
 P 10700 2300
 F 0 "D1:10" H 10700 2400 40  0000 C CNN
@@ -2646,7 +2645,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:10
+L TS65-rescue:SW S1:10
 U 1 1 56B8CE15
 P 10900 2100
 F 0 "S1:10" H 10900 2200 60  0000 C CNN
@@ -2658,7 +2657,7 @@ F 4 "MX Alps or compatible switch" H 8100 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:11
+L TS65-rescue:DIODE D1:11
 U 1 1 56B8CE14
 P 11400 2300
 F 0 "D1:11" H 11400 2400 40  0000 C CNN
@@ -2672,7 +2671,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:11
+L TS65-rescue:SW S1:11
 U 1 1 56B8CE13
 P 11600 2100
 F 0 "S1:11" H 11600 2200 60  0000 C CNN
@@ -2684,7 +2683,7 @@ F 4 "MX Alps or compatible switch" H 9500 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:12
+L TS65-rescue:DIODE D1:12
 U 1 1 56B8CE12
 P 12100 2300
 F 0 "D1:12" H 12100 2400 40  0000 C CNN
@@ -2698,7 +2697,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:12
+L TS65-rescue:SW S1:12
 U 1 1 56B8CE11
 P 12300 2100
 F 0 "S1:12" H 12300 2200 60  0000 C CNN
@@ -2710,7 +2709,7 @@ F 4 "MX Alps or compatible switch" H 10900 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:13
+L TS65-rescue:DIODE D1:13
 U 1 1 56B8CE10
 P 12800 2300
 F 0 "D1:13" H 12800 2400 40  0000 C CNN
@@ -2724,7 +2723,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:13
+L TS65-rescue:SW S1:13
 U 1 1 56B8CE0F
 P 13000 2100
 F 0 "S1:13" H 13000 2200 60  0000 C CNN
@@ -2736,7 +2735,7 @@ F 4 "MX Alps or compatible switch" H 12300 2100 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D1:14
+L TS65-rescue:DIODE D1:14
 U 1 1 56B8CE0E
 P 13500 2300
 F 0 "D1:14" H 13500 2400 40  0000 C CNN
@@ -2750,7 +2749,7 @@ F 6 "http://www.digikey.com/product-detail/en/1N4148W-7-F/1N4148W-FDICT-ND/81528
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW S1:14
+L TS65-rescue:SW S1:14
 U 1 1 56B8CE0D
 P 13700 2100
 F 0 "S1:14" H 13700 2200 60  0000 C CNN
@@ -2877,15 +2876,15 @@ Connection ~ 4900 4850
 Connection ~ 4900 4950
 Connection ~ 4900 5050
 Wire Wire Line
-	4500 4650 4500 5250
+	4500 4650 4500 4750
 Connection ~ 5600 4650
 Connection ~ 5200 4850
 Wire Wire Line
-	3800 5250 3800 4650
+	3800 5250 3800 5050
 Wire Wire Line
-	3100 5250 3100 4700
+	3100 5250 3100 4950
 Wire Wire Line
-	2400 5250 2400 4800
+	2400 5250 2400 5050
 Connection ~ 4200 5250
 Connection ~ 3800 4850
 Connection ~ 5600 5250
@@ -2899,7 +2898,7 @@ Connection ~ 3100 4950
 Connection ~ 3800 5050
 Connection ~ 5200 5050
 Wire Wire Line
-	5200 4650 5200 5250
+	5200 4650 5200 4850
 Connection ~ 2800 4800
 Connection ~ 2400 5050
 Connection ~ 7000 4100
@@ -2944,7 +2943,6 @@ Connection ~ 2400 5650
 Connection ~ 3100 5650
 Connection ~ 3800 5650
 Connection ~ 4500 5650
-Connection ~ 5200 5650
 Connection ~ 5900 4500
 Connection ~ 5200 4500
 Connection ~ 4500 4500
@@ -2968,25 +2966,25 @@ Connection ~ 4500 2400
 Connection ~ 5200 2400
 Connection ~ 5900 2400
 Wire Wire Line
-	2800 2000 2800 5950
+	2800 2000 2800 2700
 Wire Wire Line
-	3500 2000 3500 5950
+	3500 2000 3500 2700
 Wire Wire Line
-	4200 2000 4200 5950
+	4200 2000 4200 2700
 Wire Wire Line
-	4900 2000 4900 5950
+	4900 2000 4900 2700
 Wire Wire Line
-	5600 2000 5600 5950
+	5600 2000 5600 2700
 Wire Wire Line
-	6300 2000 6300 5950
+	6300 2000 6300 2700
 Wire Wire Line
-	7000 2000 7000 5950
+	7000 2000 7000 4100
 Connection ~ 10600 5250
 Connection ~ 10550 4850
 Wire Wire Line
-	10500 4850 10600 4850
+	10500 4850 10550 4850
 Wire Wire Line
-	10500 5250 10700 5250
+	10500 5250 10600 5250
 Connection ~ 11400 5250
 Wire Wire Line
 	11250 5250 11400 5250
@@ -3008,23 +3006,22 @@ Connection ~ 9300 5200
 Connection ~ 9300 4950
 Connection ~ 9700 4750
 Wire Wire Line
-	9300 4750 9300 5350
+	9300 4750 9300 4950
 Connection ~ 11800 5350
 Connection ~ 12100 5250
 Wire Wire Line
-	12100 4750 12100 5350
+	12100 4750 12100 5000
 Connection ~ 12500 5250
 Connection ~ 12500 5000
 Connection ~ 12100 5000
 Wire Wire Line
-	12800 4850 12800 5350
+	12800 4850 12800 5100
 Connection ~ 13200 5100
 Connection ~ 12800 5100
-Connection ~ 12800 4850
 Connection ~ 14200 5100
 Connection ~ 14600 5100
 Wire Wire Line
-	14200 4850 14200 5350
+	14200 4850 14200 5100
 Connection ~ 14000 3400
 Connection ~ 14600 3350
 Wire Wire Line
@@ -3045,7 +3042,7 @@ Connection ~ 11800 4750
 Connection ~ 11400 5150
 Connection ~ 11400 4950
 Wire Wire Line
-	13900 2100 13900 6000
+	13900 2100 13900 2800
 Connection ~ 14600 2100
 Connection ~ 14600 4850
 Connection ~ 14600 4200
@@ -3056,36 +3053,36 @@ Connection ~ 14200 5750
 Connection ~ 14200 4600
 Connection ~ 14200 3900
 Wire Wire Line
-	10700 4750 10700 5350
+	10700 4750 10700 4900
 Connection ~ 11100 5050
 Connection ~ 11100 4900
 Connection ~ 10700 5050
 Connection ~ 10700 4900
 Wire Wire Line
-	12500 2100 12500 6000
+	12500 2100 12500 2800
 Wire Wire Line
-	14000 3500 14000 3350
+	14000 3500 14000 3400
 Wire Wire Line
 	14200 3500 14000 3500
 Wire Wire Line
 	14200 1900 14200 2100
 Wire Wire Line
-	14900 4600 8850 4600
+	14900 4600 14200 4600
 Wire Wire Line
 	14900 5550 14900 5750
 Connection ~ 9700 5200
 Connection ~ 11400 5750
 Wire Wire Line
-	14900 5750 8850 5750
+	14900 5750 14200 5750
 Connection ~ 9300 5750
 Connection ~ 10700 5750
 Connection ~ 11800 5150
 Connection ~ 12500 4750
 Wire Wire Line
-	11400 4750 11400 5350
+	11400 4750 11400 4950
 Connection ~ 13200 4850
 Wire Wire Line
-	13200 2100 13200 6000
+	13200 2100 13200 2800
 Wire Wire Line
 	14900 4900 14900 5150
 Connection ~ 12800 3900
@@ -3093,9 +3090,9 @@ Connection ~ 15300 2800
 Connection ~ 14600 2800
 Connection ~ 14600 3500
 Wire Wire Line
-	14600 1900 14600 6000
+	14600 1900 14600 2100
 Wire Wire Line
-	15300 2100 15300 6000
+	15300 2100 15300 2800
 Connection ~ 14200 3200
 Connection ~ 13500 3200
 Connection ~ 14200 2500
@@ -3148,29 +3145,29 @@ Connection ~ 11400 2500
 Connection ~ 12100 2500
 Connection ~ 12800 2500
 Wire Wire Line
-	10400 2100 10400 6000
+	10400 2100 10400 2800
 Wire Wire Line
-	11800 2100 11800 6000
+	11800 2100 11800 2800
 Wire Wire Line
-	1750 2400 6600 2400
+	1750 2400 2400 2400
 Wire Wire Line
-	1750 3800 5900 3800
+	1750 3800 2400 3800
 Wire Wire Line
-	5900 3100 1750 3100
+	5900 3100 5200 3100
 Wire Wire Line
-	6600 4500 1750 4500
+	6600 4500 5900 4500
 Wire Wire Line
-	5200 5650 1750 5650
+	5200 5650 4500 5650
 Wire Wire Line
-	14900 2500 8850 2500
+	14900 2500 14200 2500
 Wire Wire Line
-	8850 3200 14900 3200
+	8850 3200 9300 3200
 Wire Wire Line
-	14900 3900 8850 3900
+	14900 3900 14200 3900
 Wire Wire Line
-	11100 2100 11100 6000
+	11100 2100 11100 2800
 Wire Wire Line
-	9700 2100 9700 6000
+	9700 2100 9700 2800
 Wire Wire Line
 	5200 7850 4250 7850
 Wire Wire Line
@@ -3299,7 +3296,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 7550 4250 7550
 $Comp
-L MISC BREAKHOLES6
+L TS65-rescue:MISC BREAKHOLES6
 U 1 1 573F8792
 P 9500 7800
 F 0 "BREAKHOLES6" H 9500 7950 60  0000 C CNN
@@ -3310,7 +3307,7 @@ F 3 "" H 9500 7800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC BREAKHOLES5
+L TS65-rescue:MISC BREAKHOLES5
 U 1 1 573F8798
 P 9500 7350
 F 0 "BREAKHOLES5" H 9500 7500 60  0000 C CNN
@@ -3321,7 +3318,7 @@ F 3 "" H 9500 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MISC BREAKHOLES4
+L TS65-rescue:MISC BREAKHOLES4
 U 1 1 573F8ABA
 P 9000 7800
 F 0 "BREAKHOLES4" H 9000 7950 60  0000 C CNN
@@ -3332,7 +3329,7 @@ F 3 "" H 9000 7800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MISC BREAKHOLES3
+L TS65-rescue:MISC BREAKHOLES3
 U 1 1 573F8AC0
 P 9000 7350
 F 0 "BREAKHOLES3" H 9000 7500 60  0000 C CNN
@@ -3342,4 +3339,370 @@ F 3 "" H 9000 7350 60  0000 C CNN
 	1    9000 7350
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4500 5150 4500 5250
+Wire Wire Line
+	4500 5050 4500 5150
+Wire Wire Line
+	4500 4950 4500 5050
+Wire Wire Line
+	4500 4850 4500 4950
+Wire Wire Line
+	4500 4750 4500 4850
+Wire Wire Line
+	4900 4650 4900 4750
+Wire Wire Line
+	4900 4750 4900 4850
+Wire Wire Line
+	4900 4850 4900 4950
+Wire Wire Line
+	4900 4950 4900 5050
+Wire Wire Line
+	4900 5050 4900 5150
+Wire Wire Line
+	5600 4650 5600 4850
+Wire Wire Line
+	5200 4850 5200 5050
+Wire Wire Line
+	4200 5250 4200 5950
+Wire Wire Line
+	3800 4850 3800 4650
+Wire Wire Line
+	5600 5250 5600 5950
+Wire Wire Line
+	5600 4850 5600 5050
+Wire Wire Line
+	4900 5150 4900 5250
+Wire Wire Line
+	4200 4650 4200 4850
+Wire Wire Line
+	4200 4850 4200 5050
+Wire Wire Line
+	3500 4700 3500 4950
+Wire Wire Line
+	3500 4950 3500 5250
+Wire Wire Line
+	3100 4950 3100 4700
+Wire Wire Line
+	3800 5050 3800 4850
+Wire Wire Line
+	5200 5050 5200 5250
+Wire Wire Line
+	2800 4800 2800 5050
+Wire Wire Line
+	2400 5050 2400 4800
+Wire Wire Line
+	7000 4100 7000 5950
+Wire Wire Line
+	2800 4000 2800 4100
+Wire Wire Line
+	2800 3250 2800 3400
+Wire Wire Line
+	2800 4100 2800 4800
+Wire Wire Line
+	2800 5050 2800 5950
+Wire Wire Line
+	2800 2700 2800 3250
+Wire Wire Line
+	2800 3400 2800 4000
+Wire Wire Line
+	3500 4100 3500 4700
+Wire Wire Line
+	3500 5250 3500 5950
+Wire Wire Line
+	4200 5050 4200 5250
+Wire Wire Line
+	4200 4100 4200 4650
+Wire Wire Line
+	3500 3400 3500 4100
+Wire Wire Line
+	3500 2700 3500 3400
+Wire Wire Line
+	4200 2700 4200 3400
+Wire Wire Line
+	4200 3400 4200 4100
+Wire Wire Line
+	4900 4100 4900 4650
+Wire Wire Line
+	4900 5250 4900 5950
+Wire Wire Line
+	5600 5050 5600 5250
+Wire Wire Line
+	5600 4100 5600 4650
+Wire Wire Line
+	4900 3400 4900 4100
+Wire Wire Line
+	4900 2700 4900 3400
+Wire Wire Line
+	5600 2700 5600 3400
+Wire Wire Line
+	5600 3400 5600 4100
+Wire Wire Line
+	6300 4100 6300 5950
+Wire Wire Line
+	6300 3400 6300 4100
+Wire Wire Line
+	6300 2700 6300 3400
+Wire Wire Line
+	2400 5650 1750 5650
+Wire Wire Line
+	3100 5650 2400 5650
+Wire Wire Line
+	3800 5650 3100 5650
+Wire Wire Line
+	4500 5650 3800 5650
+Wire Wire Line
+	5900 4500 5200 4500
+Wire Wire Line
+	5200 4500 4500 4500
+Wire Wire Line
+	4500 4500 3800 4500
+Wire Wire Line
+	3800 4500 3100 4500
+Wire Wire Line
+	3100 4500 2400 4500
+Wire Wire Line
+	2400 4500 1750 4500
+Wire Wire Line
+	2400 3800 3100 3800
+Wire Wire Line
+	3100 3800 3800 3800
+Wire Wire Line
+	3800 3800 4500 3800
+Wire Wire Line
+	4500 3800 5200 3800
+Wire Wire Line
+	5200 3800 5900 3800
+Wire Wire Line
+	5200 3100 4500 3100
+Wire Wire Line
+	4500 3100 3800 3100
+Wire Wire Line
+	3800 3100 3100 3100
+Wire Wire Line
+	3100 3100 2400 3100
+Wire Wire Line
+	2400 3100 1750 3100
+Wire Wire Line
+	2400 2400 3100 2400
+Wire Wire Line
+	3100 2400 3800 2400
+Wire Wire Line
+	3800 2400 4500 2400
+Wire Wire Line
+	4500 2400 5200 2400
+Wire Wire Line
+	5200 2400 5900 2400
+Wire Wire Line
+	5900 2400 6600 2400
+Wire Wire Line
+	10600 5250 10700 5250
+Wire Wire Line
+	10550 4850 10600 4850
+Wire Wire Line
+	11400 5250 11400 5350
+Wire Wire Line
+	11800 4700 11800 4750
+Wire Wire Line
+	10700 5200 10700 5250
+Wire Wire Line
+	11100 5350 11100 6000
+Wire Wire Line
+	11100 5200 11100 5350
+Wire Wire Line
+	10700 5250 10700 5350
+Wire Wire Line
+	11100 4700 11100 4750
+Wire Wire Line
+	9300 5200 9300 5350
+Wire Wire Line
+	9300 4950 9300 5200
+Wire Wire Line
+	9700 4750 9700 4950
+Wire Wire Line
+	11800 5350 11800 6000
+Wire Wire Line
+	12100 5250 12100 5350
+Wire Wire Line
+	12500 5250 12500 6000
+Wire Wire Line
+	12500 5000 12500 5250
+Wire Wire Line
+	12100 5000 12100 5250
+Wire Wire Line
+	13200 5100 13200 6000
+Wire Wire Line
+	12800 5100 12800 5350
+Wire Wire Line
+	14200 5100 14200 5350
+Wire Wire Line
+	14600 5100 14600 6000
+Wire Wire Line
+	14000 3400 14000 3350
+Wire Wire Line
+	14600 3350 14600 3400
+Wire Wire Line
+	14600 3400 14600 3500
+Wire Wire Line
+	13900 3500 13900 6000
+Wire Wire Line
+	13500 3900 12800 3900
+Wire Wire Line
+	13200 4050 13200 4200
+Wire Wire Line
+	11800 4750 11800 4950
+Wire Wire Line
+	11400 5150 11400 5250
+Wire Wire Line
+	11400 4950 11400 5150
+Wire Wire Line
+	14600 2100 14600 2800
+Wire Wire Line
+	14600 4850 14600 5100
+Wire Wire Line
+	14600 4200 14600 4850
+Wire Wire Line
+	15300 4900 15300 6000
+Wire Wire Line
+	15300 4200 15300 4900
+Wire Wire Line
+	15300 3500 15300 4200
+Wire Wire Line
+	14200 5750 12800 5750
+Wire Wire Line
+	14200 4600 12800 4600
+Wire Wire Line
+	14200 3900 13500 3900
+Wire Wire Line
+	11100 5050 11100 5200
+Wire Wire Line
+	11100 4900 11100 5050
+Wire Wire Line
+	10700 5050 10700 5200
+Wire Wire Line
+	10700 4900 10700 5050
+Wire Wire Line
+	9700 5200 9700 6000
+Wire Wire Line
+	11400 5750 10700 5750
+Wire Wire Line
+	9300 5750 8850 5750
+Wire Wire Line
+	10700 5750 9300 5750
+Wire Wire Line
+	11800 5150 11800 5350
+Wire Wire Line
+	12500 4750 12500 5000
+Wire Wire Line
+	13200 4850 13200 5100
+Wire Wire Line
+	12800 3900 12100 3900
+Wire Wire Line
+	15300 2800 15300 3500
+Wire Wire Line
+	14600 2800 14600 3350
+Wire Wire Line
+	14600 3500 14600 4200
+Wire Wire Line
+	14200 3200 14900 3200
+Wire Wire Line
+	13500 3200 14200 3200
+Wire Wire Line
+	14200 2500 13500 2500
+Wire Wire Line
+	13500 2500 12800 2500
+Wire Wire Line
+	9700 4200 9700 4750
+Wire Wire Line
+	9700 4950 9700 5200
+Wire Wire Line
+	9700 2800 9700 3500
+Wire Wire Line
+	9700 3500 9700 4200
+Wire Wire Line
+	10400 4200 10400 6000
+Wire Wire Line
+	11100 4750 11100 4900
+Wire Wire Line
+	11100 4200 11100 4700
+Wire Wire Line
+	10400 3500 10400 4200
+Wire Wire Line
+	10400 2800 10400 3500
+Wire Wire Line
+	11100 2800 11100 3500
+Wire Wire Line
+	11100 3500 11100 4200
+Wire Wire Line
+	11800 4200 11800 4700
+Wire Wire Line
+	11800 4950 11800 5150
+Wire Wire Line
+	12500 4200 12500 4750
+Wire Wire Line
+	11800 3500 11800 4200
+Wire Wire Line
+	11800 2800 11800 3500
+Wire Wire Line
+	12500 2800 12500 3500
+Wire Wire Line
+	12500 3500 12500 4200
+Wire Wire Line
+	13200 4200 13200 4850
+Wire Wire Line
+	13200 3500 13200 4050
+Wire Wire Line
+	13200 2800 13200 3500
+Wire Wire Line
+	13900 2800 13900 3500
+Wire Wire Line
+	12100 5750 11400 5750
+Wire Wire Line
+	12800 5750 12100 5750
+Wire Wire Line
+	12800 4600 12100 4600
+Wire Wire Line
+	12100 4600 11400 4600
+Wire Wire Line
+	11400 4600 10700 4600
+Wire Wire Line
+	10700 4600 10000 4600
+Wire Wire Line
+	10000 4600 9300 4600
+Wire Wire Line
+	9300 4600 8850 4600
+Wire Wire Line
+	9300 3900 8850 3900
+Wire Wire Line
+	10000 3900 9300 3900
+Wire Wire Line
+	10700 3900 10000 3900
+Wire Wire Line
+	11400 3900 10700 3900
+Wire Wire Line
+	12100 3900 11400 3900
+Wire Wire Line
+	12800 3200 13500 3200
+Wire Wire Line
+	12100 3200 12800 3200
+Wire Wire Line
+	11400 3200 12100 3200
+Wire Wire Line
+	10700 3200 11400 3200
+Wire Wire Line
+	10000 3200 10700 3200
+Wire Wire Line
+	9300 3200 10000 3200
+Wire Wire Line
+	9300 2500 8850 2500
+Wire Wire Line
+	10000 2500 9300 2500
+Wire Wire Line
+	10700 2500 10000 2500
+Wire Wire Line
+	11400 2500 10700 2500
+Wire Wire Line
+	12100 2500 11400 2500
+Wire Wire Line
+	12800 2500 12100 2500
 $EndSCHEMATC
