@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TS65-rescue)(type Legacy)(uri ${KIPRJMOD}/TS65-rescue.lib)(options "")(descr ""))
+  (lib (name TS65)(type Legacy)(uri ${KIPRJMOD}/lib/TS65.lib)(options "")(descr ""))
+)

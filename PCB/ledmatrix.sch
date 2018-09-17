@@ -1875,7 +1875,7 @@ F 7 "Samsung" H 9600 7050 60  0001 C CNN "Vendor"
 	1    9600 7050
 	1    0    0    -1  
 $EndComp
-Text HLabel 1500 6200 0    60   Input ~ 0
+Text HLabel 1450 5450 2    60   Input ~ 0
 RGBLDIN
 Text HLabel 8650 6150 0    60   Input ~ 0
 RGBRDIN
@@ -2816,8 +2816,6 @@ Wire Wire Line
 	3200 6650 3200 6800
 Wire Wire Line
 	3200 6800 3300 6800
-Wire Wire Line
-	1500 6200 1750 6200
 Connection ~ 6000 5700
 Wire Wire Line
 	6950 6000 6500 6000
@@ -3620,4 +3618,30 @@ Wire Wire Line
 	13900 5650 14400 5650
 Wire Wire Line
 	6600 5700 7100 5700
+$Comp
+L Device:Q_PMOS_GSD Q2
+U 1 1 5BD5D292
+P 1250 5450
+F 0 "Q2" H 1456 5404 50  0000 L CNN
+F 1 "NDS332P" H 1456 5495 50  0000 L CNN
+F 2 "prettylib:SOT-23" H 1450 5550 50  0001 C CNN
+F 3 "~" H 1250 5450 50  0001 C CNN
+	1    1250 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L TS65-rescue:+5V #PWR0112
+U 1 1 5BD5D81C
+P 1150 5250
+F 0 "#PWR0112" H 1150 5340 20  0001 C CNN
+F 1 "+5V" H 1150 5340 30  0000 C CNN
+F 2 "" H 1150 5250 60  0000 C CNN
+F 3 "" H 1150 5250 60  0000 C CNN
+	1    1150 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 6200 1150 5650
+Wire Wire Line
+	1150 6200 1750 6200
 $EndSCHEMATC
