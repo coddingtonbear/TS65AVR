@@ -1,4 +1,4 @@
-14825153025334803
+14892790477944278
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -5536,6 +5536,314 @@ C Rect series Radial pin pitch 37.50mm  length 41.5mm width 40mm Capacitor
 0
 2
 2
+coddingtonbear
+10P_FPC_1.0mm
+
+
+0
+10
+10
+coddingtonbear
+12mm_buzzer
+
+
+0
+2
+2
+coddingtonbear
+30P_FPC_0.5mm
+
+
+0
+30
+30
+coddingtonbear
+128x64_OLED_LCD
+
+
+0
+4
+4
+coddingtonbear
+0805_Milling
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+coddingtonbear
+ASFL1
+ASFL1
+asfl1
+0
+4
+4
+coddingtonbear
+BOOST_LM2596_3A
+https://www.amazon.com/eBoot-LM2596-Converter-3-0-40V-1-5-35V/dp/B01GJ0SC2C/
+
+0
+4
+4
+coddingtonbear
+BOOST_TP4056_2A
+https://www.amazon.com/eBoot-LM2596-Converter-3-0-40V-1-5-35V/dp/B01GJ0SC2C/
+
+0
+4
+4
+coddingtonbear
+BUCK_REGULATOR
+
+
+0
+8
+4
+coddingtonbear
+coddingtonbear_logo.B.Cu.5mm
+
+
+0
+0
+0
+coddingtonbear
+coddingtonbear_logo.base
+
+
+0
+0
+0
+coddingtonbear
+CP_Tantalum_Case-C_EIA-6032-28_Milling
+Tantalum capacitor, Case C, EIA 6032-28, 6.0x3.2x2.5mm, Reflow soldering footprint
+capacitor tantalum smd
+0
+4
+2
+coddingtonbear
+CP_Tantalum_Case-D_EIA-7343-31_Milling
+Tantalum capacitor, Case D, EIA 7343-31, 7.3x4.3x2.8mm, Reflow soldering footprint
+capacitor tantalum smd
+0
+4
+2
+coddingtonbear
+CR2032
+
+
+0
+2
+2
+coddingtonbear
+DIODE-VERTICAL
+
+
+0
+2
+2
+coddingtonbear
+ESP-12E
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+22
+22
+coddingtonbear
+ESP-32S
+
+
+0
+39
+39
+coddingtonbear
+FGPMMOPA6C
+
+
+0
+13
+13
+coddingtonbear
+JST_EH_B02B-EH-A_02x2.50mm_Straight_LargePads
+JST EH series connector, B02B-EH-A, 2.50mm pitch, top entry
+connector jst eh top vertical straight
+0
+2
+2
+coddingtonbear
+JST_EH_B03B-EH-A_03x2.50mm_Straight_LargePads
+JST EH series connector, B03B-EH-A, 2.50mm pitch, top entry
+connector jst eh top vertical straight
+0
+3
+3
+coddingtonbear
+JST_EH_B05B-EH-A_05x2.50mm_Straight_LargePads
+JST EH series connector, B05B-EH-A, 2.50mm pitch, top entry
+connector jst eh top vertical straight
+0
+5
+5
+coddingtonbear
+JST_XH_B02B-XH-A_02x2.50mm_Straight_LargePads
+JST XH series connector, B02B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
+0
+2
+2
+coddingtonbear
+JST_XH_B03B-XH-A_03x2.50mm_Straight_LargePads
+JST XH series connector, B03B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
+0
+3
+3
+coddingtonbear
+JST_XH_B04B-XH-A_04x2.50mm_Straight_LargePads
+JST XH series connector, B04B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
+0
+4
+4
+coddingtonbear
+JST_XH_B05B-XH-A_05x2.50mm_Straight_LargePads
+JST XH series connector, B05B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
+0
+5
+5
+coddingtonbear
+JST_XH_B06B-XH-A_06x2.50mm_Straight_LargePads
+JST XH series connector, B06B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
+0
+6
+6
+coddingtonbear
+JST_XH_B07B-XH-A_07x2.50mm_Straight_LargePads
+JST XH series connector, B07B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
+0
+7
+7
+coddingtonbear
+JST_XH_B08B-XH-A_08x2.50mm_Straight_LargePads
+JST XH series connector, B08B-XH-A, top entry type, through hole
+connector jst xh tht top vertical 2.50mm
+0
+8
+8
+coddingtonbear
+MICRO-B_USB-INVERTED
+
+
+0
+11
+5
+coddingtonbear
+NDS8434
+
+
+0
+8
+3
+coddingtonbear
+Pin_Header_Straight_1x02_Pitch1.27mm_JMP
+Through hole straight pin header, 1x02, 1.27mm pitch, single row
+Through hole pin header THT 1x02 1.27mm single row
+0
+2
+2
+coddingtonbear
+Pin_Header_Straight_1x04_Pitch2.54mm_LargePads
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+coddingtonbear
+Pololu_Stepper_Breakout
+
+
+0
+16
+16
+coddingtonbear
+PSMN5R4-25YLD
+LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
+LFPAK SOT-669 Power-SO8
+0
+19
+3
+coddingtonbear
+SIM800L_Breakout
+
+
+0
+5
+5
+coddingtonbear
+SJ1-3524NG
+3.5 mm Right-Angle Stereo Jack, 4 Pin PCB Mount, Isolated Ground
+
+0
+5
+5
+coddingtonbear
+SLV6A-FKB-MILLING
+
+
+0
+6
+6
+coddingtonbear
+SM-CRYSTAL-ABS25_LargePads
+
+
+0
+4
+4
+coddingtonbear
+SMD_RED_TACTILE_SWITCH
+
+
+0
+4
+2
+coddingtonbear
+SO-4_Milling
+
+SO4
+0
+4
+4
+coddingtonbear
+SOT-23_LargePads
+
+
+0
+3
+3
+coddingtonbear
+TAB
+
+
+0
+2
+1
+coddingtonbear
+UJ2-MIBH-4-SMT
+
+
+0
+9
+6
+coddingtonbear
+USB_Thru_hole
+
+
+0
+5
+5
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill

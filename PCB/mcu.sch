@@ -2308,4 +2308,59 @@ Wire Wire Line
 	13500 3700 13450 3700
 Wire Wire Line
 	13450 3700 13450 3950
+$Comp
+L power:+3V3 #PWR0132
+U 1 1 5BACBDC0
+P 2100 4650
+F 0 "#PWR0132" H 2100 4500 50  0001 C CNN
+F 1 "+3V3" H 2115 4823 50  0000 C CNN
+F 2 "" H 2100 4650 50  0001 C CNN
+F 3 "" H 2100 4650 50  0001 C CNN
+	1    2100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS65-rescue:VSS #PWR0133
+U 1 1 5BACBDC6
+P 2050 5300
+F 0 "#PWR0133" H 2050 5300 30  0001 C CNN
+F 1 "VSS" H 2050 5230 30  0000 C CNN
+F 2 "" H 2050 5300 60  0001 C CNN
+F 3 "" H 2050 5300 60  0001 C CNN
+	1    2050 5300
+	1    0    0    -1  
+$EndComp
+Text Label 2100 4750 2    60   ~ 0
+SCL_
+Text Label 2100 4850 2    60   ~ 0
+SDA_
+Text Notes 2000 4250 0    118  ~ 24
+I2C
+Wire Notes Line
+	750  3950 3700 3950
+Wire Notes Line
+	3700 3950 3700 5650
+Wire Notes Line
+	3700 5650 750  5650
+Wire Notes Line
+	750  5650 750  3950
+$Comp
+L Connector_Generic:Conn_01x06 J7
+U 1 1 5BADDCE1
+P 2300 4850
+F 0 "J7" H 2379 4842 50  0000 L CNN
+F 1 "EXPANSION" H 2379 4751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2300 4850 50  0001 C CNN
+F 3 "~" H 2300 4850 50  0001 C CNN
+	1    2300 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5150 2050 5150
+Wire Wire Line
+	2050 5150 2050 5300
+Text Label 2100 4950 2    60   ~ 0
+GPIO_A
+Text Label 2100 5050 2    60   ~ 0
+GPIO_B
 $EndSCHEMATC
